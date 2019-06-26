@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30F97A9D-6E0F-4D9B-94D3-128507B6484F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Parcial</RootNamespace>
+    <AssemblyName>Parcial</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>F:\INSTALADOR\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C59DC33F204DC64B1FE013E672B16B82EC5AF42A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Parcial_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCliente.Designer.cs">
+      <DependentUpon>FrmCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEvento.Designer.cs">
+      <DependentUpon>FrmEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEvento_Actividad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEvento_Actividad.Designer.cs">
+      <DependentUpon>FrmEvento_Actividad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEvento_Equipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEvento_Equipo.Designer.cs">
+      <DependentUpon>FrmEvento_Equipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEvento_Material.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEvento_Material.Designer.cs">
+      <DependentUpon>FrmEvento_Material.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEvento_Personal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEvento_Personal.Designer.cs">
+      <DependentUpon>FrmEvento_Personal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEvento_Servicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEvento_Servicio.Designer.cs">
+      <DependentUpon>FrmEvento_Servicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLocal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLocal.Designer.cs">
+      <DependentUpon>FrmLocal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPersonal.Designer.cs">
+      <DependentUpon>FrmPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportes.Designer.cs">
+      <DependentUpon>frmReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCliente.resx">
+      <DependentUpon>FrmCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEvento.resx">
+      <DependentUpon>FrmEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEvento_Actividad.resx">
+      <DependentUpon>FrmEvento_Actividad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEvento_Equipo.resx">
+      <DependentUpon>FrmEvento_Equipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEvento_Material.resx">
+      <DependentUpon>FrmEvento_Material.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEvento_Personal.resx">
+      <DependentUpon>FrmEvento_Personal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEvento_Servicio.resx">
+      <DependentUpon>FrmEvento_Servicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLocal.resx">
+      <DependentUpon>FrmLocal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPersonal.resx">
+      <DependentUpon>FrmPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportes.resx">
+      <DependentUpon>frmReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Parcial_TemporaryKey.pfx" />
+    <None Include="Properties\DataSources\Entities.Actividad.datasource" />
+    <None Include="Properties\DataSources\Entities.Cliente.datasource" />
+    <None Include="Properties\DataSources\Entities.Equipo.datasource" />
+    <None Include="Properties\DataSources\Entities.Evento.datasource" />
+    <None Include="Properties\DataSources\Entities.Eventos_TPEntitiesContext.datasource" />
+    <None Include="Properties\DataSources\Entities.Evento_Actividad.datasource" />
+    <None Include="Properties\DataSources\Entities.Evento_Equipo.datasource" />
+    <None Include="Properties\DataSources\Entities.Evento_Material.datasource" />
+    <None Include="Properties\DataSources\Entities.Evento_Personal.datasource" />
+    <None Include="Properties\DataSources\Entities.Evento_Servicio.datasource" />
+    <None Include="Properties\DataSources\Entities.Local.datasource" />
+    <None Include="Properties\DataSources\Entities.Material.datasource" />
+    <None Include="Properties\DataSources\Entities.Personal.datasource" />
+    <None Include="Properties\DataSources\Entities.Servicio.datasource" />
+    <None Include="Properties\DataSources\Entities.sp_helpdiagramdefinition_Result.datasource" />
+    <None Include="Properties\DataSources\Entities.sp_helpdiagrams_Result.datasource" />
+    <None Include="Properties\DataSources\Entities.sysdiagrams.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BussinesLogic\BussinesLogic.csproj">
+      <Project>{a69c79eb-380b-4be5-bf2f-0e152857608f}</Project>
+      <Name>BussinesLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{c97839db-b624-4e61-a468-a9e27cc34a91}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

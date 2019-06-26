@@ -1,0 +1,60 @@
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Entities\bin\Debug\Entities.dll.config
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Entities\bin\Debug\Entities.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Entities\bin\Debug\Entities.pdb
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Entities\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Entities\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Entities\obj\Debug\Entities.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Entities\obj\Debug\Entities.pdb
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Desktop\Parcial\Entities\bin\Debug\Entities.dll.config
+C:\Users\Luis\Desktop\Parcial\Entities\bin\Debug\Entities.dll
+C:\Users\Luis\Desktop\Parcial\Entities\bin\Debug\Entities.pdb
+C:\Users\Luis\Desktop\Parcial\Entities\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Desktop\Parcial\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Luis\Desktop\Parcial\Entities\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Desktop\Parcial\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Luis\Desktop\Parcial\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Desktop\Parcial\Entities\obj\Debug\Entities.dll
+C:\Users\Luis\Desktop\Parcial\Entities\obj\Debug\Entities.pdb
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Entities\bin\Debug\Entities.dll.config
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Entities\bin\Debug\Entities.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Entities\bin\Debug\Entities.pdb
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Entities\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Entities\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Entities\obj\Debug\Entities.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Entities\obj\Debug\Entities.pdb
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Entities\bin\Debug\Entities.dll.config
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Entities\bin\Debug\Entities.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Entities\bin\Debug\Entities.pdb
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Entities\bin\Debug\EntityFramework.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Entities\bin\Debug\EntityFramework.xml
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Entities\obj\Debug\Entities.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Entities\obj\Debug\Entities.pdb
+C:\Users\Luis\Downloads\Parcial\Entities\bin\Debug\Entities.dll.config
+C:\Users\Luis\Downloads\Parcial\Entities\bin\Debug\Entities.dll
+C:\Users\Luis\Downloads\Parcial\Entities\bin\Debug\Entities.pdb
+C:\Users\Luis\Downloads\Parcial\Entities\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Downloads\Parcial\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Luis\Downloads\Parcial\Entities\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Downloads\Parcial\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Luis\Downloads\Parcial\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Downloads\Parcial\Entities\obj\Debug\Entities.dll
+C:\Users\Luis\Downloads\Parcial\Entities\obj\Debug\Entities.pdb
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Entities\bin\Debug\Entities.dll.config
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Entities\bin\Debug\Entities.dll
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Entities\bin\Debug\Entities.pdb
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Entities\bin\Debug\EntityFramework.dll
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Entities\bin\Debug\EntityFramework.SqlServer.dll
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Entities\bin\Debug\EntityFramework.xml
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Entities\bin\Debug\EntityFramework.SqlServer.xml
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Entities\obj\Debug\Entities.dll
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Entities\obj\Debug\Entities.pdb

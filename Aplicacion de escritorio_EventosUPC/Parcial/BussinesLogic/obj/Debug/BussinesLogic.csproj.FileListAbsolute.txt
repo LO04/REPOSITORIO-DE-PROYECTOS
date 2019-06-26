@@ -1,0 +1,55 @@
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\BussinesLogic\bin\Debug\BussinesLogic.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\BussinesLogic\bin\Debug\BussinesLogic.pdb
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\BussinesLogic\bin\Debug\DataAccess.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\BussinesLogic\bin\Debug\Entities.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\BussinesLogic\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\BussinesLogic\bin\Debug\DataAccess.pdb
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\BussinesLogic\bin\Debug\Entities.pdb
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\BussinesLogic\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\BussinesLogic\obj\Debug\BussinesLogic.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\BussinesLogic\obj\Debug\BussinesLogic.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\BussinesLogic\obj\Debug\BussinesLogic.pdb
+C:\Users\Luis\Desktop\Parcial\BussinesLogic\bin\Debug\BussinesLogic.dll
+C:\Users\Luis\Desktop\Parcial\BussinesLogic\bin\Debug\BussinesLogic.pdb
+C:\Users\Luis\Desktop\Parcial\BussinesLogic\bin\Debug\DataAccess.dll
+C:\Users\Luis\Desktop\Parcial\BussinesLogic\bin\Debug\Entities.dll
+C:\Users\Luis\Desktop\Parcial\BussinesLogic\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Desktop\Parcial\BussinesLogic\bin\Debug\DataAccess.pdb
+C:\Users\Luis\Desktop\Parcial\BussinesLogic\bin\Debug\Entities.pdb
+C:\Users\Luis\Desktop\Parcial\BussinesLogic\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Desktop\Parcial\BussinesLogic\obj\Debug\BussinesLogic.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Desktop\Parcial\BussinesLogic\obj\Debug\BussinesLogic.dll
+C:\Users\Luis\Desktop\Parcial\BussinesLogic\obj\Debug\BussinesLogic.pdb
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\bin\Debug\BussinesLogic.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\bin\Debug\BussinesLogic.pdb
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\bin\Debug\DataAccess.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\bin\Debug\Entities.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\bin\Debug\DataAccess.pdb
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\bin\Debug\Entities.pdb
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\obj\Debug\BussinesLogic.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\obj\Debug\BussinesLogic.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\obj\Debug\BussinesLogic.pdb
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\bin\Debug\BussinesLogic.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\bin\Debug\BussinesLogic.pdb
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\bin\Debug\DataAccess.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\bin\Debug\Entities.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\bin\Debug\EntityFramework.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\bin\Debug\DataAccess.pdb
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\bin\Debug\Entities.pdb
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\bin\Debug\EntityFramework.xml
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\obj\Debug\BussinesLogic.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\obj\Debug\BussinesLogic.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\BussinesLogic\obj\Debug\BussinesLogic.pdb
+C:\Users\Luis\Downloads\Parcial\BussinesLogic\bin\Debug\BussinesLogic.dll
+C:\Users\Luis\Downloads\Parcial\BussinesLogic\bin\Debug\BussinesLogic.pdb
+C:\Users\Luis\Downloads\Parcial\BussinesLogic\bin\Debug\DataAccess.dll
+C:\Users\Luis\Downloads\Parcial\BussinesLogic\bin\Debug\Entities.dll
+C:\Users\Luis\Downloads\Parcial\BussinesLogic\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Downloads\Parcial\BussinesLogic\bin\Debug\DataAccess.pdb
+C:\Users\Luis\Downloads\Parcial\BussinesLogic\bin\Debug\Entities.pdb
+C:\Users\Luis\Downloads\Parcial\BussinesLogic\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Downloads\Parcial\BussinesLogic\obj\Debug\BussinesLogic.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Downloads\Parcial\BussinesLogic\obj\Debug\BussinesLogic.dll
+C:\Users\Luis\Downloads\Parcial\BussinesLogic\obj\Debug\BussinesLogic.pdb

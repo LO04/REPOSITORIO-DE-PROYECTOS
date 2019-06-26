@@ -1,0 +1,60 @@
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\DataAccess\bin\Debug\Entities.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\DataAccess\bin\Debug\Entities.pdb
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Luis\Desktop\Parcial\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Luis\Desktop\Parcial\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Luis\Desktop\Parcial\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Luis\Desktop\Parcial\DataAccess\bin\Debug\Entities.dll
+C:\Users\Luis\Desktop\Parcial\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Desktop\Parcial\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Luis\Desktop\Parcial\DataAccess\bin\Debug\Entities.pdb
+C:\Users\Luis\Desktop\Parcial\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Desktop\Parcial\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Luis\Desktop\Parcial\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Desktop\Parcial\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Luis\Desktop\Parcial\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\Entities.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\Entities.pdb
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\Entities.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\Entities.pdb
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Luis\Downloads\Parcial\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Luis\Downloads\Parcial\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Luis\Downloads\Parcial\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Luis\Downloads\Parcial\DataAccess\bin\Debug\Entities.dll
+C:\Users\Luis\Downloads\Parcial\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Downloads\Parcial\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Luis\Downloads\Parcial\DataAccess\bin\Debug\Entities.pdb
+C:\Users\Luis\Downloads\Parcial\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Downloads\Parcial\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Luis\Downloads\Parcial\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Downloads\Parcial\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Luis\Downloads\Parcial\DataAccess\obj\Debug\DataAccess.pdb

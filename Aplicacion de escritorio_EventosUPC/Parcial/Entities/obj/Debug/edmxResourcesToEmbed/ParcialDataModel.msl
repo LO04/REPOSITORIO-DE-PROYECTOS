@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Eventos_TPModelContextStoreContainer" CdmEntityContainer="Eventos_TPEntitiesContext">
+    <EntitySetMapping Name="Actividad">
+      <EntityTypeMapping TypeName="Eventos_TPModelContext.Actividad">
+        <MappingFragment StoreEntitySet="Actividad">
+          <ScalarProperty Name="id_actividad" ColumnName="id_actividad" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cliente">
+      <EntityTypeMapping TypeName="Eventos_TPModelContext.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="DNI" ColumnName="DNI" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Equipo">
+      <EntityTypeMapping TypeName="Eventos_TPModelContext.Equipo">
+        <MappingFragment StoreEntitySet="Equipo">
+          <ScalarProperty Name="id_equipo" ColumnName="id_equipo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="precio_alquiler" ColumnName="precio_alquiler" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Evento">
+      <EntityTypeMapping TypeName="Eventos_TPModelContext.Evento">
+        <MappingFragment StoreEntitySet="Evento">
+          <ScalarProperty Name="id_evento" ColumnName="id_evento" />
+          <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+          <ScalarProperty Name="id_local" ColumnName="id_local" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="objetivo" ColumnName="objetivo" />
+          <ScalarProperty Name="nro_asistentes" ColumnName="nro_asistentes" />
+          <ScalarProperty Name="fecha_evento" ColumnName="fecha_evento" />
+          <ScalarProperty Name="encargado" ColumnName="encargado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Evento_Actividad">
+      <EntityTypeMapping TypeName="Eventos_TPModelContext.Evento_Actividad">
+        <MappingFragment StoreEntitySet="Evento_Actividad">
+          <ScalarProperty Name="id_evento_actividad" ColumnName="id_evento_actividad" />
+          <ScalarProperty Name="id_evento" ColumnName="id_evento" />
+          <ScalarProperty Name="id_actividad" ColumnName="id_actividad" />
+          <ScalarProperty Name="hora_inicio" ColumnName="hora_inicio" />
+          <ScalarProperty Name="hora_fin" ColumnName="hora_fin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Evento_Equipo">
+      <EntityTypeMapping TypeName="Eventos_TPModelContext.Evento_Equipo">
+        <MappingFragment StoreEntitySet="Evento_Equipo">
+          <ScalarProperty Name="id_evento_equipo" ColumnName="id_evento_equipo" />
+          <ScalarProperty Name="id_evento" ColumnName="id_evento" />
+          <ScalarProperty Name="id_equipo" ColumnName="id_equipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Evento_Material">
+      <EntityTypeMapping TypeName="Eventos_TPModelContext.Evento_Material">
+        <MappingFragment StoreEntitySet="Evento_Material">
+          <ScalarProperty Name="id_evento_material" ColumnName="id_evento_material" />
+          <ScalarProperty Name="id_evento" ColumnName="id_evento" />
+          <ScalarProperty Name="id_material" ColumnName="id_material" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Evento_Personal">
+      <EntityTypeMapping TypeName="Eventos_TPModelContext.Evento_Personal">
+        <MappingFragment StoreEntitySet="Evento_Personal">
+          <ScalarProperty Name="id_evento_personal" ColumnName="id_evento_personal" />
+          <ScalarProperty Name="id_evento" ColumnName="id_evento" />
+          <ScalarProperty Name="id_personal" ColumnName="id_personal" />
+          <ScalarProperty Name="horas_trab" ColumnName="horas_trab" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Evento_Servicio">
+      <EntityTypeMapping TypeName="Eventos_TPModelContext.Evento_Servicio">
+        <MappingFragment StoreEntitySet="Evento_Servicio">
+          <ScalarProperty Name="id_evento_servicio" ColumnName="id_evento_servicio" />
+          <ScalarProperty Name="id_evento" ColumnName="id_evento" />
+          <ScalarProperty Name="id_servicio" ColumnName="id_servicio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Local">
+      <EntityTypeMapping TypeName="Eventos_TPModelContext.Local">
+        <MappingFragment StoreEntitySet="Local">
+          <ScalarProperty Name="id_local" ColumnName="id_local" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="capacidad" ColumnName="capacidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Material">
+      <EntityTypeMapping TypeName="Eventos_TPModelContext.Material">
+        <MappingFragment StoreEntitySet="Material">
+          <ScalarProperty Name="id_material" ColumnName="id_material" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="precio_alquiler" ColumnName="precio_alquiler" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Personal">
+      <EntityTypeMapping TypeName="Eventos_TPModelContext.Personal">
+        <MappingFragment StoreEntitySet="Personal">
+          <ScalarProperty Name="id_personal" ColumnName="id_personal" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="DNI" ColumnName="DNI" />
+          <ScalarProperty Name="cargo" ColumnName="cargo" />
+          <ScalarProperty Name="sueldo" ColumnName="sueldo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Servicio">
+      <EntityTypeMapping TypeName="Eventos_TPModelContext.Servicio">
+        <MappingFragment StoreEntitySet="Servicio">
+          <ScalarProperty Name="id_servicio" ColumnName="id_servicio" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="precio_alquiler" ColumnName="precio_alquiler" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="Eventos_TPModelContext.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="Eventos_TPModelContext.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="Eventos_TPModelContext.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="Eventos_TPModelContext.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="Eventos_TPModelContext.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Eventos_TPModelContext.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="Eventos_TPModelContext.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Eventos_TPModelContext.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="Eventos_TPModelContext.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="Eventos_TPModelContext.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>

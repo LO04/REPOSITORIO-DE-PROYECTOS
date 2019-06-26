@@ -1,0 +1,194 @@
+c:\users\oscar\documents\visual studio 2015\Projects\Parcial\Parcial\bin\Debug\Parcial.exe.config
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\bin\Debug\Parcial.exe.config
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\bin\Debug\Parcial.exe
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\bin\Debug\Parcial.pdb
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\bin\Debug\BussinesLogic.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\bin\Debug\Entities.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\bin\Debug\DataAccess.dll
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\bin\Debug\BussinesLogic.pdb
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\bin\Debug\Entities.pdb
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\bin\Debug\DataAccess.pdb
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\obj\Debug\Parcial.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\obj\Debug\Parcial.Principal.resources
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\obj\Debug\Parcial.Properties.Resources.resources
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\obj\Debug\Parcial.csproj.GenerateResource.Cache
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\obj\Debug\Parcial.exe
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\obj\Debug\Parcial.pdb
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\obj\Debug\Parcial.FrmPersonal.resources
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\obj\Debug\Parcial.FrmCliente.resources
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\obj\Debug\Parcial.FrmLocal.resources
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\obj\Debug\Parcial.FrmEvento.resources
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Actividad.resources
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Equipo.resources
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Material.resources
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Personal.resources
+C:\Users\Luis\Desktop\TRABAJO PARCIAL APP WEB\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Servicio.resources
+C:\Users\Luis\Desktop\Parcial\Parcial\bin\Debug\Parcial.exe.config
+C:\Users\Luis\Desktop\Parcial\Parcial\obj\Debug\Parcial.exe
+C:\Users\Luis\Desktop\Parcial\Parcial\obj\Debug\Parcial.pdb
+C:\Users\Luis\Desktop\Parcial\Parcial\obj\Debug\Parcial.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Desktop\Parcial\Parcial\obj\Debug\Parcial.FrmCliente.resources
+C:\Users\Luis\Desktop\Parcial\Parcial\obj\Debug\Parcial.FrmEvento.resources
+C:\Users\Luis\Desktop\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Actividad.resources
+C:\Users\Luis\Desktop\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Equipo.resources
+C:\Users\Luis\Desktop\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Material.resources
+C:\Users\Luis\Desktop\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Personal.resources
+C:\Users\Luis\Desktop\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Servicio.resources
+C:\Users\Luis\Desktop\Parcial\Parcial\obj\Debug\Parcial.FrmLocal.resources
+C:\Users\Luis\Desktop\Parcial\Parcial\obj\Debug\Parcial.FrmPersonal.resources
+C:\Users\Luis\Desktop\Parcial\Parcial\obj\Debug\Parcial.Principal.resources
+C:\Users\Luis\Desktop\Parcial\Parcial\obj\Debug\Parcial.Properties.Resources.resources
+C:\Users\Luis\Desktop\Parcial\Parcial\obj\Debug\Parcial.csproj.GenerateResource.Cache
+C:\Users\Luis\Desktop\Parcial\Parcial\bin\Debug\Parcial.exe
+C:\Users\Luis\Desktop\Parcial\Parcial\bin\Debug\Parcial.pdb
+C:\Users\Luis\Desktop\Parcial\Parcial\bin\Debug\BussinesLogic.dll
+C:\Users\Luis\Desktop\Parcial\Parcial\bin\Debug\Entities.dll
+C:\Users\Luis\Desktop\Parcial\Parcial\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Desktop\Parcial\Parcial\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Luis\Desktop\Parcial\Parcial\bin\Debug\DataAccess.dll
+C:\Users\Luis\Desktop\Parcial\Parcial\bin\Debug\BussinesLogic.pdb
+C:\Users\Luis\Desktop\Parcial\Parcial\bin\Debug\Entities.pdb
+C:\Users\Luis\Desktop\Parcial\Parcial\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Desktop\Parcial\Parcial\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Luis\Desktop\Parcial\Parcial\bin\Debug\DataAccess.pdb
+C:\Users\Luis\Desktop\Parcial\Parcial\obj\Debug\Parcial.FrmReportes.resources
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\Parcial.exe.config
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\Parcial.exe
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\Parcial.pdb
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\BussinesLogic.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\Entities.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\DataAccess.dll
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\BussinesLogic.pdb
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\Entities.pdb
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\DataAccess.pdb
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmCliente.resources
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmEvento.resources
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Actividad.resources
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Equipo.resources
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Material.resources
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Personal.resources
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Servicio.resources
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmLocal.resources
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmPersonal.resources
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.Login.resources
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.Principal.resources
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.Properties.Resources.resources
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.csproj.GenerateResource.Cache
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.exe
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.pdb
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.frmReportes.resources
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\Parcial.exe.manifest
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\Parcial.application
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.exe.manifest
+C:\Users\Luis\Desktop\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.application
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\Parcial.exe.config
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.exe
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.pdb
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\Parcial.exe.manifest
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\Parcial.application
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\Parcial.exe
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\Parcial.pdb
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\BussinesLogic.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\Entities.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\EntityFramework.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\DataAccess.dll
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\BussinesLogic.pdb
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\Entities.pdb
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\EntityFramework.xml
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\bin\Debug\DataAccess.pdb
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmCliente.resources
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmEvento.resources
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Actividad.resources
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Equipo.resources
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Material.resources
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Personal.resources
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Servicio.resources
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmLocal.resources
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.FrmPersonal.resources
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.frmReportes.resources
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.Login.resources
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.Principal.resources
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.Properties.Resources.resources
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.csproj.GenerateResource.Cache
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.exe.manifest
+C:\Users\Oscar\Downloads\ULTIMA VERSIÓN AW\Parcial\Parcial\obj\Debug\Parcial.application
+C:\Users\Luis\Downloads\Parcial\Parcial\bin\Debug\Parcial.exe.config
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.exe
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.pdb
+C:\Users\Luis\Downloads\Parcial\Parcial\bin\Debug\Parcial.exe.manifest
+C:\Users\Luis\Downloads\Parcial\Parcial\bin\Debug\Parcial.application
+C:\Users\Luis\Downloads\Parcial\Parcial\bin\Debug\Parcial.exe
+C:\Users\Luis\Downloads\Parcial\Parcial\bin\Debug\Parcial.pdb
+C:\Users\Luis\Downloads\Parcial\Parcial\bin\Debug\BussinesLogic.dll
+C:\Users\Luis\Downloads\Parcial\Parcial\bin\Debug\Entities.dll
+C:\Users\Luis\Downloads\Parcial\Parcial\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Downloads\Parcial\Parcial\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Luis\Downloads\Parcial\Parcial\bin\Debug\DataAccess.dll
+C:\Users\Luis\Downloads\Parcial\Parcial\bin\Debug\BussinesLogic.pdb
+C:\Users\Luis\Downloads\Parcial\Parcial\bin\Debug\Entities.pdb
+C:\Users\Luis\Downloads\Parcial\Parcial\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Downloads\Parcial\Parcial\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Luis\Downloads\Parcial\Parcial\bin\Debug\DataAccess.pdb
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.FrmCliente.resources
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.FrmEvento.resources
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Actividad.resources
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Equipo.resources
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Material.resources
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Personal.resources
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Servicio.resources
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.FrmLocal.resources
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.FrmPersonal.resources
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.frmReportes.resources
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.Login.resources
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.Principal.resources
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.Properties.Resources.resources
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.csproj.GenerateResource.Cache
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.exe.manifest
+C:\Users\Luis\Downloads\Parcial\Parcial\obj\Debug\Parcial.application
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\bin\Debug\Parcial.exe.config
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.exe
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.pdb
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\bin\Debug\Parcial.exe.manifest
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\bin\Debug\Parcial.application
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\bin\Debug\Parcial.exe
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\bin\Debug\Parcial.pdb
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\bin\Debug\BussinesLogic.dll
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\bin\Debug\Entities.dll
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\bin\Debug\EntityFramework.dll
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\bin\Debug\EntityFramework.SqlServer.dll
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\bin\Debug\DataAccess.dll
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\bin\Debug\BussinesLogic.pdb
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\bin\Debug\Entities.pdb
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\bin\Debug\EntityFramework.xml
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\bin\Debug\EntityFramework.SqlServer.xml
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\bin\Debug\DataAccess.pdb
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.csprojResolveAssemblyReference.cache
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.FrmCliente.resources
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.FrmEvento.resources
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Actividad.resources
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Equipo.resources
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Material.resources
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Personal.resources
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.FrmEvento_Servicio.resources
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.FrmLocal.resources
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.FrmPersonal.resources
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.frmReportes.resources
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.Login.resources
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.Principal.resources
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.Properties.Resources.resources
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.csproj.GenerateResource.Cache
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.exe.manifest
+F:\CICLO 6\APLICACIONES WEB\TRABAJO PARCIAL\Parcial\Parcial\obj\Debug\Parcial.application
