@@ -1,0 +1,164 @@
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\ApplicationInsights.config
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\roslyn\csc.exe
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\roslyn\vbc.exe
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\EventosUPC.dll.config
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\EventosUPC.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\EventosUPC.pdb
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Antlr3.Runtime.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\EntityFramework.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\EntityFramework.SqlServer.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.AI.Web.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Newtonsoft.Json.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Owin.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\System.Web.Helpers.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\System.Web.Mvc.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\System.Web.Optimization.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\System.Web.Razor.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\System.Web.WebPages.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\WebGrease.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.AI.Web.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\System.Web.Helpers.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\System.Web.Mvc.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\System.Web.Optimization.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\System.Web.Razor.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\System.Web.WebPages.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Antlr3.Runtime.pdb
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Newtonsoft.Json.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\EntityFramework.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\EntityFramework.SqlServer.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\obj\Debug\EventosUPC.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\obj\Debug\EventosUPC.dll
+C:\Users\Luis\Desktop\EventosUPC\EventosUPC\obj\Debug\EventosUPC.pdb
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\ApplicationInsights.config
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\roslyn\csc.exe
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\roslyn\System.Collections.Immutable.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\roslyn\System.Reflection.Metadata.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\roslyn\vbc.exe
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\roslyn\VBCSCompiler.exe
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\roslyn\VBCSCompiler.exe.config
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\EventosUPC.dll.config
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\EventosUPC.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\EventosUPC.pdb
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Antlr3.Runtime.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\EntityFramework.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\EntityFramework.SqlServer.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.AI.Agent.Intercept.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.AI.DependencyCollector.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.AI.Web.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.AI.WindowsServer.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.ApplicationInsights.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.AspNet.Identity.Core.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.Cookies.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.Facebook.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.Google.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.OAuth.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.Twitter.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Web.Infrastructure.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Newtonsoft.Json.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Owin.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\System.Web.Helpers.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\System.Web.Mvc.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\System.Web.Optimization.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\System.Web.Razor.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\System.Web.WebPages.Deployment.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\System.Web.WebPages.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\System.Web.WebPages.Razor.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\WebGrease.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.AI.DependencyCollector.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.AI.Web.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.AI.WindowsServer.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.ApplicationInsights.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\System.Web.Helpers.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\System.Web.Mvc.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\System.Web.Optimization.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\System.Web.Razor.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\System.Web.WebPages.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\System.Web.WebPages.Deployment.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\System.Web.WebPages.Razor.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Antlr3.Runtime.pdb
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Newtonsoft.Json.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\EntityFramework.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\EntityFramework.SqlServer.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.AspNet.Identity.Core.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.Facebook.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.Cookies.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.OAuth.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.Google.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.Twitter.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\obj\Debug\EventosUPC.csprojResolveAssemblyReference.cache
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\obj\Debug\EventosUPC.dll
+F:\CICLO 7\REPO PROYECTOS\REPOSITORIO-DE-PROYECTOS\App web_EventosUPC_I\EventosUPC\EventosUPC\obj\Debug\EventosUPC.pdb

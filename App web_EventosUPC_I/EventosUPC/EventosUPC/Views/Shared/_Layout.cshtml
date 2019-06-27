@@ -1,0 +1,161 @@
+﻿@using EventosUPC.Models
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/elegant-icons-style.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link href="~/Content/style-responsive.css" rel="stylesheet" />
+
+
+    <script src="~/Scripts/Admin/scripts.js"></script>
+    <script src="~/Scripts/Admin/jquery.scrollTo.min.js"></script>
+    <script src="~/Scripts/Admin/jquery.nicescroll.js"></script>
+    <script src="~/Scripts/Admin/jquery.knob.js"></script>
+    <script src="~/Scripts/Admin/jquery.js"></script>
+
+</head>
+<body>
+    @{
+        Usuario usuario = ((Usuario)Session["MyUser"]);
+    }
+
+    @if (Session["MyUser"] == null)
+    {
+        <header>
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        @Html.ActionLink("Eventos UPC", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("About", "About", "Home")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        </ul>
+                        @Html.Partial("_LoginPartial")
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container body-content">
+            @RenderBody()
+        </div>
+    }
+    else
+    if (usuario.Tipo_Usuario.Nombre == "Administrador")
+    {
+        <header>
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                       <h3 style="align-content:initial">ADMINISTRADOR</h3>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        @Html.Partial("_LoginPartial")
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <div>
+            <row class="col-lg-2">
+                @Html.Partial("_AdminLateral")
+            </row>
+            <row class="col-lg-10">
+                @RenderBody()
+            </row>
+
+        </div>
+    }
+    else if (usuario.Tipo_Usuario.Nombre == "Cliente")
+    {
+        <header>
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li>@Html.ActionLink("Eventos","Index", "Evento")</li>
+                            <li class="dropdown">
+
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Componentes<b class="caret"></b></a>
+        
+                                <ul class="dropdown-menu">
+                                    <li> @Html.ActionLink("Personal", "Index", "Evento_Personal")</li>
+                                    <li> @Html.ActionLink("Actividad", "Index", "Evento_Actividad")</li>
+                                    <li> @Html.ActionLink("Equipo", "Index", "Evento_Equipo")</li>
+                                    <li>@Html.ActionLink("Material", "Index", "Evento_Material")</li>
+                                    <li>@Html.ActionLink("Servicio", "Index", "Evento_Servicio")</li>
+                                </ul>
+                            </li>
+                            <li>@Html.ActionLink("Carrito", "Index", "Evento")</li>
+                        </ul>
+                        @Html.Partial("_LoginPartial")
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div>
+            <row class="col-lg-3">
+                @Html.Partial("_ClienteLateral")
+            </row>
+            <row class="col-lg-9">
+                @RenderBody()
+            </row>
+
+        </div>
+
+    }
+
+    @*<div id="body">
+            @RenderSection("featured",required:false)
+                <section class="content-wrapper main-content clear-fix">
+                    @if (Session["MyUser"] != null)
+                    {
+                        var objUsuario = (EventosUPC.Models.Usuario)Session["MyUser"];
+                        var tipo_usuario = objUsuario.Tipo_Usuario.Nombre;
+
+                        if (tipo_usuario == "Administrador")
+                        {
+                            <div>
+                                <ul id="menu">
+                                    <li>@Html.ActionLink("Usuarios", "Index", "Usuario")</li>
+                                    <li>@Html.ActionLink("Actividad", "Index", "Actividad")</li>
+                                    @*<li>@Html.ActionLink("Tournaments", "Index", "Tournament")</li>
+                                </ul>
+                            </div>
+                        }
+
+                    }
+                </section>
+        </div>*@
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+
+</html>

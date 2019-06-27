@@ -1,0 +1,44 @@
+﻿<style>
+    .vertical-menu {
+        width: 200px; /* Set a width if you like */
+    }
+
+        .vertical-menu a {
+            background-color: #34495E; /* Grey background color */
+            color: antiquewhite; /* Black text color */
+            touch-action:auto;
+            display: block; /* Make the links appear below each other */
+            padding: 12px; /* Add some padding */
+            text-decoration: none; /* Remove underline from links */
+        }
+
+            .vertical-menu a:hover {
+                background-color: #ccc; /* Dark grey background on mouse-over */
+            }
+
+            .vertical-menu a.active {
+                background-color: #1C2833; /* Add a green color to the "active/current" link */
+                color: white;
+                animation:alternate;
+            }
+</style>
+<div class="vertical-menu">
+    <br />
+    <br />
+    <br />
+    <a href="/Administrador/Index" class="active">Opciones</a>
+    <a href="/Usuario/Index">Usuario</a>
+    <a href="/Tipo_Usuario/Index">Tipo Usuario</a>
+    <a href="/Evento/Index">Evento</a>
+    <a href="/Servicio/Index">Servicio</a>
+    <a href="/Evento_Servicio/Index">Evento por Servicio</a>
+    <a href="/Personal/Index">Personal</a>
+    <a href="/Evento_Personal/Index">Evento por Personal</a>
+    <a href="/Material/Index">Material</a>
+    <a href="/Evento_Material/Index">Evento por Material</a>
+    <a href="/Equipo/Index">Equipo</a>
+    <a href="/Evento_Equipo/Index">Evento por Equipo</a>
+    <a href="/Actividad/Index">Actividad</a>
+    <a href="/Evento_Actividad/Index">Evento por Actividad</a>
+
+</div>

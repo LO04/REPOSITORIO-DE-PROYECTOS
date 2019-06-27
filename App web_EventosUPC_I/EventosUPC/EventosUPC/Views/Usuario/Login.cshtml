@@ -1,0 +1,51 @@
+﻿@model EventosUPC.Models.Usuario
+
+@{
+    ViewBag.Title = "Iniciar sesión";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="container">
+
+        <div class="login-form">
+            <div class="login-wrap">
+                <p><img src="~/images/eventos.png" /> </p>
+                <div class="glyphicon-font">
+                 No tiene una cuenta?  @Html.ActionLink("registrate aqui", "Register", "Usuario")
+                </div>
+                @ViewBag.SuccessfulMessage
+                <br />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_profile"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Correo
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.Correo, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Correo, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_key_alt"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Contraseña
+
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.Contraseña, new { htmlAttributes = new { @class = "form-control", @type = "password" } })
+                        @Html.ValidationMessageFor(model => model.Contraseña, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="centered">@ViewBag.ErrorMessage</div>
+                <br />
+                @Html.ActionLink("¿Olvidaste tu contraseña?", "Restore_Password", "Usuario")
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Iniciar Sesion</button>
+            </div>
+        </div>
+
+
+    </div>
+    <br />
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Eventos_TPModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Actividad">
+    <Key>
+      <PropertyRef Name="id_actividad" />
+    </Key>
+    <Property Name="id_actividad" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Equipo">
+    <Key>
+      <PropertyRef Name="id_equipo" />
+    </Key>
+    <Property Name="id_equipo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="precio_alquiler" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Evento">
+    <Key>
+      <PropertyRef Name="id_evento" />
+    </Key>
+    <Property Name="id_evento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_cliente" Type="int" Nullable="false" />
+    <Property Name="id_local" Type="int" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="objetivo" Type="varchar" MaxLength="50" />
+    <Property Name="nro_asistentes" Type="int" Nullable="false" />
+    <Property Name="fecha_evento" Type="datetime" Nullable="false" />
+    <Property Name="encargado" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Evento_Actividad">
+    <Key>
+      <PropertyRef Name="id_evento_actividad" />
+    </Key>
+    <Property Name="id_evento_actividad" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_evento" Type="int" Nullable="false" />
+    <Property Name="id_actividad" Type="int" Nullable="false" />
+    <Property Name="hora_inicio" Type="datetime" Nullable="false" />
+    <Property Name="hora_fin" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Evento_Equipo">
+    <Key>
+      <PropertyRef Name="id_evento_equipo" />
+    </Key>
+    <Property Name="id_evento_equipo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_evento" Type="int" Nullable="false" />
+    <Property Name="id_equipo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Evento_Material">
+    <Key>
+      <PropertyRef Name="id_evento_material" />
+    </Key>
+    <Property Name="id_evento_material" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_evento" Type="int" Nullable="false" />
+    <Property Name="id_material" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Evento_Personal">
+    <Key>
+      <PropertyRef Name="id_evento_personal" />
+    </Key>
+    <Property Name="id_evento_personal" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_evento" Type="int" Nullable="false" />
+    <Property Name="id_personal" Type="int" Nullable="false" />
+    <Property Name="horas_trab" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Evento_Servicio">
+    <Key>
+      <PropertyRef Name="id_evento_servicio" />
+    </Key>
+    <Property Name="id_evento_servicio" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_evento" Type="int" Nullable="false" />
+    <Property Name="id_servicio" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Local">
+    <Key>
+      <PropertyRef Name="id_local" />
+    </Key>
+    <Property Name="id_local" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="direccion" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="capacidad" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Material">
+    <Key>
+      <PropertyRef Name="id_material" />
+    </Key>
+    <Property Name="id_material" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="precio_alquiler" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Personal">
+    <Key>
+      <PropertyRef Name="id_personal" />
+    </Key>
+    <Property Name="id_personal" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DNI" Type="int" Nullable="false" />
+    <Property Name="cargo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="sueldo" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Servicio">
+    <Key>
+      <PropertyRef Name="id_servicio" />
+    </Key>
+    <Property Name="id_servicio" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="precio_alquiler" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Tipo_Usuario">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Celular" Type="int" />
+    <Property Name="DNI" Type="int" Nullable="false" />
+    <Property Name="Direccion" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="Correo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Contraseña" Type="nvarchar" MaxLength="50" />
+    <Property Name="TipoUsuarioID" Type="int" />
+  </EntityType>
+  <Association Name="FK_Evento_Actividad_Actividad">
+    <End Role="Actividad" Type="Self.Actividad" Multiplicity="1" />
+    <End Role="Evento_Actividad" Type="Self.Evento_Actividad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Actividad">
+        <PropertyRef Name="id_actividad" />
+      </Principal>
+      <Dependent Role="Evento_Actividad">
+        <PropertyRef Name="id_actividad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Evento_Actividad_Evento">
+    <End Role="Evento" Type="Self.Evento" Multiplicity="1" />
+    <End Role="Evento_Actividad" Type="Self.Evento_Actividad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Evento">
+        <PropertyRef Name="id_evento" />
+      </Principal>
+      <Dependent Role="Evento_Actividad">
+        <PropertyRef Name="id_evento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Evento_Equipo_Equipo">
+    <End Role="Equipo" Type="Self.Equipo" Multiplicity="1" />
+    <End Role="Evento_Equipo" Type="Self.Evento_Equipo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipo">
+        <PropertyRef Name="id_equipo" />
+      </Principal>
+      <Dependent Role="Evento_Equipo">
+        <PropertyRef Name="id_equipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Evento_Equipo_Evento">
+    <End Role="Evento" Type="Self.Evento" Multiplicity="1" />
+    <End Role="Evento_Equipo" Type="Self.Evento_Equipo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Evento">
+        <PropertyRef Name="id_evento" />
+      </Principal>
+      <Dependent Role="Evento_Equipo">
+        <PropertyRef Name="id_evento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Evento_Local">
+    <End Role="Local" Type="Self.Local" Multiplicity="1" />
+    <End Role="Evento" Type="Self.Evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Local">
+        <PropertyRef Name="id_local" />
+      </Principal>
+      <Dependent Role="Evento">
+        <PropertyRef Name="id_local" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Evento_Material_Evento">
+    <End Role="Evento" Type="Self.Evento" Multiplicity="1" />
+    <End Role="Evento_Material" Type="Self.Evento_Material" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Evento">
+        <PropertyRef Name="id_evento" />
+      </Principal>
+      <Dependent Role="Evento_Material">
+        <PropertyRef Name="id_evento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Evento_Material_Material">
+    <End Role="Material" Type="Self.Material" Multiplicity="1" />
+    <End Role="Evento_Material" Type="Self.Evento_Material" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Material">
+        <PropertyRef Name="id_material" />
+      </Principal>
+      <Dependent Role="Evento_Material">
+        <PropertyRef Name="id_material" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Evento_Personal_Evento">
+    <End Role="Personal" Type="Self.Personal" Multiplicity="1" />
+    <End Role="Evento_Personal" Type="Self.Evento_Personal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Personal">
+        <PropertyRef Name="id_personal" />
+      </Principal>
+      <Dependent Role="Evento_Personal">
+        <PropertyRef Name="id_personal" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Evento_Personal_Evento1">
+    <End Role="Evento" Type="Self.Evento" Multiplicity="1" />
+    <End Role="Evento_Personal" Type="Self.Evento_Personal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Evento">
+        <PropertyRef Name="id_evento" />
+      </Principal>
+      <Dependent Role="Evento_Personal">
+        <PropertyRef Name="id_evento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Evento_Servicio_Evento">
+    <End Role="Evento" Type="Self.Evento" Multiplicity="1" />
+    <End Role="Evento_Servicio" Type="Self.Evento_Servicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Evento">
+        <PropertyRef Name="id_evento" />
+      </Principal>
+      <Dependent Role="Evento_Servicio">
+        <PropertyRef Name="id_evento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Evento_Servicio_Servicio">
+    <End Role="Servicio" Type="Self.Servicio" Multiplicity="1" />
+    <End Role="Evento_Servicio" Type="Self.Evento_Servicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Servicio">
+        <PropertyRef Name="id_servicio" />
+      </Principal>
+      <Dependent Role="Evento_Servicio">
+        <PropertyRef Name="id_servicio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Evento_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Evento" Type="Self.Evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Evento">
+        <PropertyRef Name="id_cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Tipo_Usuario">
+    <End Role="Tipo_Usuario" Type="Self.Tipo_Usuario" Multiplicity="0..1" />
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipo_Usuario">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="TipoUsuarioID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Eventos_TPModelStoreContainer">
+    <EntitySet Name="Actividad" EntityType="Self.Actividad" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Equipo" EntityType="Self.Equipo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Evento" EntityType="Self.Evento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Evento_Actividad" EntityType="Self.Evento_Actividad" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Evento_Equipo" EntityType="Self.Evento_Equipo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Evento_Material" EntityType="Self.Evento_Material" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Evento_Personal" EntityType="Self.Evento_Personal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Evento_Servicio" EntityType="Self.Evento_Servicio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Local" EntityType="Self.Local" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Material" EntityType="Self.Material" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Personal" EntityType="Self.Personal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Servicio" EntityType="Self.Servicio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tipo_Usuario" EntityType="Self.Tipo_Usuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Evento_Actividad_Actividad" Association="Self.FK_Evento_Actividad_Actividad">
+      <End Role="Actividad" EntitySet="Actividad" />
+      <End Role="Evento_Actividad" EntitySet="Evento_Actividad" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Evento_Actividad_Evento" Association="Self.FK_Evento_Actividad_Evento">
+      <End Role="Evento" EntitySet="Evento" />
+      <End Role="Evento_Actividad" EntitySet="Evento_Actividad" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Evento_Equipo_Equipo" Association="Self.FK_Evento_Equipo_Equipo">
+      <End Role="Equipo" EntitySet="Equipo" />
+      <End Role="Evento_Equipo" EntitySet="Evento_Equipo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Evento_Equipo_Evento" Association="Self.FK_Evento_Equipo_Evento">
+      <End Role="Evento" EntitySet="Evento" />
+      <End Role="Evento_Equipo" EntitySet="Evento_Equipo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Evento_Local" Association="Self.FK_Evento_Local">
+      <End Role="Local" EntitySet="Local" />
+      <End Role="Evento" EntitySet="Evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Evento_Material_Evento" Association="Self.FK_Evento_Material_Evento">
+      <End Role="Evento" EntitySet="Evento" />
+      <End Role="Evento_Material" EntitySet="Evento_Material" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Evento_Material_Material" Association="Self.FK_Evento_Material_Material">
+      <End Role="Material" EntitySet="Material" />
+      <End Role="Evento_Material" EntitySet="Evento_Material" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Evento_Personal_Evento" Association="Self.FK_Evento_Personal_Evento">
+      <End Role="Personal" EntitySet="Personal" />
+      <End Role="Evento_Personal" EntitySet="Evento_Personal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Evento_Personal_Evento1" Association="Self.FK_Evento_Personal_Evento1">
+      <End Role="Evento" EntitySet="Evento" />
+      <End Role="Evento_Personal" EntitySet="Evento_Personal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Evento_Servicio_Evento" Association="Self.FK_Evento_Servicio_Evento">
+      <End Role="Evento" EntitySet="Evento" />
+      <End Role="Evento_Servicio" EntitySet="Evento_Servicio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Evento_Servicio_Servicio" Association="Self.FK_Evento_Servicio_Servicio">
+      <End Role="Servicio" EntitySet="Servicio" />
+      <End Role="Evento_Servicio" EntitySet="Evento_Servicio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Evento_Usuario" Association="Self.FK_Evento_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Evento" EntitySet="Evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Tipo_Usuario" Association="Self.FK_Usuario_Tipo_Usuario">
+      <End Role="Tipo_Usuario" EntitySet="Tipo_Usuario" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

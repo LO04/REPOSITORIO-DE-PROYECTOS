@@ -1,0 +1,42 @@
+﻿@model EventosUPC.Models.Evento_Personal
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Evento_Personal</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.horas_trab)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.horas_trab)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Evento.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Evento.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Personal.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Personal.nombre)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_evento_personal }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

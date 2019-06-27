@@ -1,0 +1,31 @@
+﻿@model IEnumerable<EventosUPC.Models.Evento_Personal>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.horas_trab)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Evento.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Personal.nombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.horas_trab)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Evento.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Personal.nombre)
+        </td>
+    </tr>
+}
+
+</table>

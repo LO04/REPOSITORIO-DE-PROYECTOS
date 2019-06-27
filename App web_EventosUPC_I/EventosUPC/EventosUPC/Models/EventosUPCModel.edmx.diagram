@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f0905ecdbaaf4b29b1cf0ea503a45d19" Name="Diagram1">
+        <EntityTypeShape EntityType="Eventos_TPModel.Actividad" Width="1.5" PointX="5.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Eventos_TPModel.Equipo" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Eventos_TPModel.Evento" Width="1.5" PointX="5.25" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Eventos_TPModel.Evento_Actividad" Width="1.5" PointX="7.5" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Eventos_TPModel.Evento_Equipo" Width="1.5" PointX="7.5" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Eventos_TPModel.Evento_Material" Width="1.5" PointX="7.5" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Eventos_TPModel.Evento_Personal" Width="1.5" PointX="10.5" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Eventos_TPModel.Evento_Servicio" Width="1.5" PointX="10.5" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Eventos_TPModel.Local" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Eventos_TPModel.Material" Width="1.5" PointX="5.25" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Eventos_TPModel.Personal" Width="1.5" PointX="8.25" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Eventos_TPModel.Servicio" Width="1.5" PointX="8.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Eventos_TPModel.sysdiagram" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Eventos_TPModel.Tipo_Usuario" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Eventos_TPModel.Usuario" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <AssociationConnector Association="Eventos_TPModel.FK_Evento_Actividad_Actividad" ManuallyRouted="false" />
+        <AssociationConnector Association="Eventos_TPModel.FK_Evento_Equipo_Equipo" ManuallyRouted="false" />
+        <AssociationConnector Association="Eventos_TPModel.FK_Evento_Actividad_Evento" ManuallyRouted="false" />
+        <AssociationConnector Association="Eventos_TPModel.FK_Evento_Equipo_Evento" ManuallyRouted="false" />
+        <AssociationConnector Association="Eventos_TPModel.FK_Evento_Local" ManuallyRouted="false" />
+        <AssociationConnector Association="Eventos_TPModel.FK_Evento_Material_Evento" ManuallyRouted="false" />
+        <AssociationConnector Association="Eventos_TPModel.FK_Evento_Personal_Evento1" ManuallyRouted="false" />
+        <AssociationConnector Association="Eventos_TPModel.FK_Evento_Servicio_Evento" ManuallyRouted="false" />
+        <AssociationConnector Association="Eventos_TPModel.FK_Evento_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="Eventos_TPModel.FK_Evento_Material_Material" ManuallyRouted="false" />
+        <AssociationConnector Association="Eventos_TPModel.FK_Evento_Personal_Evento" ManuallyRouted="false" />
+        <AssociationConnector Association="Eventos_TPModel.FK_Evento_Servicio_Servicio" ManuallyRouted="false" />
+        <AssociationConnector Association="Eventos_TPModel.FK_Usuario_Tipo_Usuario" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

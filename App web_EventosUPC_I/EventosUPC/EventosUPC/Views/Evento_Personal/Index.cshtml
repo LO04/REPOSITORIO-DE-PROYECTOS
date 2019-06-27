@@ -1,0 +1,45 @@
+﻿@model IEnumerable<EventosUPC.Models.Evento_Personal>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <button class="btn btn-lg" type="submit">@Html.ActionLink("Agregar Personal", "Create")</button>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.horas_trab)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Evento.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Personal.nombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.horas_trab)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Evento.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Personal.nombre)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id_evento_personal }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id_evento_personal }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id_evento_personal })
+        </td>
+    </tr>
+}
+
+</table>

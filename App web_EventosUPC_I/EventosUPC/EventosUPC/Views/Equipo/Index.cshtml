@@ -1,0 +1,49 @@
+﻿@model IEnumerable<EventosUPC.Models.Equipo>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.precio_alquiler)
+        </th>
+        <th>
+            imagen
+        </th>
+        <th>
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.precio_alquiler)
+        </td>
+        <th>
+            @foreach (var item1 in ViewBag.lista)
+            {
+                <img src="~/Images/@item1" width="30" height="30" alt="" />
+            }
+        </th>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id_equipo }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id_equipo }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id_equipo })
+        </td>
+    </tr>
+}
+
+</table>

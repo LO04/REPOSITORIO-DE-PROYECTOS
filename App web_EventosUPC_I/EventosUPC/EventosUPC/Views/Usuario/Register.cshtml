@@ -1,0 +1,101 @@
+﻿@model EventosUPC.Models.Usuario
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="container">
+        <div class="register-form">
+            <div class="register-wrap">
+                <h3 class="center-block">Nuevo Usuario</h3>
+                <br />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_profile"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Nombre
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.Nombre, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_book"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Apellido
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.Apellido, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Apellido, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_globe-2"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Nro Celular
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.Celular, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Celular, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_globe-2"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; DNI
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.DNI, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.DNI, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_genius"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Direccion
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.Direccion, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Direccion, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_mail"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Correo
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.Correo, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Correo, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_key_alt"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Contraseña
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.Contraseña, new { htmlAttributes = new { @class = "form-control",Type="password" } })
+                        @Html.ValidationMessageFor(model => model.Contraseña, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="centered">@ViewBag.ErrorMessage</div>
+                <br />
+                <label class="checkbox">
+                    <span class="center-block"> <a href="/Usuario/Login">Volver al Login</a></span>
+                </label>
+
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Crear</button>
+              
+            </div>
+        </div>
+    </div>
+
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

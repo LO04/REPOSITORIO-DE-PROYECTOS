@@ -1,0 +1,69 @@
+﻿@model IEnumerable<EventosUPC.Models.Evento>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.objetivo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nro_asistentes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_evento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.encargado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Local.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Usuario.Nombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.objetivo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nro_asistentes)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha_evento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.encargado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Local.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Usuario.Nombre)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id_evento }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id_evento }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id_evento })
+        </td>
+    </tr>
+}
+
+</table>

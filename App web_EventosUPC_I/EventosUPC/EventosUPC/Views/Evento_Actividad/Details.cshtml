@@ -1,0 +1,50 @@
+﻿@model EventosUPC.Models.Evento_Actividad
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Evento_Actividad</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.hora_inicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.hora_inicio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.hora_fin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.hora_fin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Actividad.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Actividad.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Evento.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Evento.nombre)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_evento_actividad }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

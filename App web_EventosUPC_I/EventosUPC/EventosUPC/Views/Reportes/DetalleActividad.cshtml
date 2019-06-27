@@ -1,0 +1,38 @@
+﻿@model IEnumerable<EventosUPC.Models.Evento_Actividad>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.hora_inicio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.hora_fin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Actividad.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Evento.nombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.hora_inicio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.hora_fin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Actividad.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Evento.nombre)
+        </td>
+
+    </tr>
+}
+
+</table>

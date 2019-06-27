@@ -1,0 +1,117 @@
+﻿@model IEnumerable<EventosUPC.Models.Evento>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <button class="btn btn-lg" type="submit">@Html.ActionLink("Agregar Nuevo Evento", "CreateEve")</button>
+</p>
+<table class="table" id="eve">
+    <tr>
+        <th></th>
+        <th>
+            @Html.DisplayNameFor(model => model.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.objetivo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nro_asistentes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_evento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.encargado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Local.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Usuario.Nombre)
+        </th>
+        <th></th>
+    </tr>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img src="~/Content/img/mas.png" style="cursor:pointer" evenID="@item.id_evento" />
+                </td>
+                <td> @Html.DisplayFor(modelItem => item.nombre)</td>
+                <td>@Html.DisplayFor(modelItem => item.objetivo)</td>
+                <td> @Html.DisplayFor(modelItem => item.nro_asistentes) </td>
+                <td>@Html.DisplayFor(modelItem => item.fecha_evento) </td>
+                <td> @Html.DisplayFor(modelItem => item.encargado)</td>
+                <td> @Html.DisplayFor(modelItem => item.Local.nombre)</td>
+                <td> @Html.DisplayFor(modelItem => item.Usuario.Nombre)</td>
+                <td>
+                    @Html.ActionLink("Edit", "EditEve", new { id = item.id_evento }) |
+                   @*@Html.ActionLink("Delete", "DeleteEve", new { id = item.id_evento }) |*@
+                    
+                </td>
+            </tr>
+            <tr id="fila-@item.id_evento" style="display:none">
+                <td></td>
+                <td colspan="3">
+                    <h4>Equipos</h4>
+                    @Html.Action("DetalleEquipo", new { EventoID = item.id_evento })
+                </td>
+                <td colspan="3">
+                    <h4>Actividades</h4>
+                    @Html.Action("DetalleActividad", new { EventoID = item.id_evento })
+                </td>
+            </tr>
+            <tr id="fila1-@item.id_evento" style="display:none">
+                <td></td>
+                <td colspan="3">
+                    <h4>Material</h4>
+                    @Html.Action("DetalleMaterial", new { EventoID = item.id_evento })
+                </td>
+                <td colspan="3">
+                    <h4>Personal</h4>
+                    @Html.Action("DetallePersonal", new { EventoID = item.id_evento })
+                </td>
+            </tr>
+            <tr id="fila2-@item.id_evento" style="display:none">
+                <td></td>
+                <td colspan="3">
+                    <h4>Servicio</h4>
+                    @Html.Action("DetalleServicio", new { EventoID = item.id_evento })
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>
+
+@section scripts{
+<script type="text/javascript">
+    $(function () {
+        $("#eve tbody img").click(function () {
+            var eveID = $(this).attr("evenID");
+            var fila = $("#fila-" + eveID);
+            var fila1 = $("#fila1-" + eveID);
+            var fila2 = $("#fila2-" + eveID);
+            if (fila.css("display") == "none" && fila1.css("display") == "none" && fila2.css("display") == "none")
+            {
+                fila.css("display", "table-row");
+                fila1.css("display", "table-row");
+                fila2.css("display", "table-row");
+                $(this).attr("src", "@Url.Content("~/Content/img/menos.png")");
+            } else {
+                fila.css("display", "none");
+                fila1.css("display", "none");
+                fila2.css("display", "none");
+                $(this).attr("src", "@Url.Content("~/Content/img/mas.png")");
+            }
+        })
+    })
+</script>
+}
+
+
+

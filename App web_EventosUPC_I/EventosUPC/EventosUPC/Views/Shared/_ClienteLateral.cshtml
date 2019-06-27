@@ -1,0 +1,82 @@
+﻿<style>
+    html {
+  font-family: Arial;
+  font-size: 16px;
+  background: #282828;
+}
+    .sidebar-m {
+  position:fixed ;
+  width: 20%;
+  height: 100vh;
+  background: #312450;
+  font-size: 0.70em;
+}
+    .nav-m {
+  position: relative;
+  margin:15%;
+  text-align: right;
+  top: 20%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+
+ .nav-m ul {
+            list-style: armenian;
+        }
+    #a1 {
+      line-height: 5em;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 0.4em;
+      color:#FFF;
+      display: block;
+      transition: all ease-out 100ms;
+    }
+    
+    .active #a1 {
+      color: black;
+    }
+    
+    :not(.active)::after {
+      opacity: 0.2;
+    }
+    
+    :not(.active):hover #a1 {
+      color: white;
+    }
+      .vertical-menu a:hover {
+                background-color: #808080;
+                opacity:unset; /* Dark grey background on mouse-over */
+            }
+
+            .vertical-menu a.active {
+                background-color: #1C2833; /* Add a green color to the "active/current" link */
+                color: white;
+                animation:alternate;
+            }
+ 
+.titulo{
+    font-size:larger
+                 
+    }
+</style>
+<br />
+<br />
+<br />
+<br />
+<br />
+<aside class="sidebar-m">
+    <nav class="nav-m">
+        <ul class="vertical-menu">
+            <li class="active"><a class="titulo" id="a1" href="#">COMPONENTES</a></li>
+            <li><a id="a1" href="/Evento/Index">Eventos</a></li>
+            <li><a id="a1" href="/Evento_Personal/Create">Personal</a></li>
+            <li><a id="a1" href="/Evento_Actividad/Create">Actividad</a></li>
+            <li><a id="a1" href="/Evento_Equipo/Create">Equipo</a></li>
+            <li><a id="a1" href="/Evento_Material/Create">Material</a></li>
+            <li><a id="a1" href="/Evento_Servicio/Create">Servicio</a></li>
+            <li><a id="a1" href="/Reportes/IndexRepo">Verificar Eventos</a></li>
+        </ul>
+    </nav>
+</aside>
+
