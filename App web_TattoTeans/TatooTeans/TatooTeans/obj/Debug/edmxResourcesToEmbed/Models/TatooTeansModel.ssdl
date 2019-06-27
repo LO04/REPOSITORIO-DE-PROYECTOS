@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TattoTeansModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CategoriaProducto">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CategoriaTatuaje">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tipo" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CompraDetalle">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Producto" Type="int" Nullable="false" />
+    <Property Name="ID_FacturaCompra" Type="int" Nullable="false" />
+    <Property Name="Cantidad" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FacturaCompra">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Usuario" Type="int" Nullable="false" />
+    <Property Name="ID_TipoDePago" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Local">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Distrito" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LocalPorUsuarioPorCategoria">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Local" Type="int" Nullable="false" />
+    <Property Name="ID_UsuarioPorCategoria" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Opinion">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ID_TrabajoRealizado" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Producto">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_CategoriaProducto" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Precio" Type="float" Nullable="false" />
+    <Property Name="Cantidad" Type="int" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Reserva">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_LocalPorUsuarioPorCategoria" Type="int" Nullable="false" />
+    <Property Name="FechaReserva" Type="date" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ID_Cliente" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TipoDePago">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TipoUsuario">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TrabajoRealizado">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FechaRealizada" Type="date" Nullable="false" />
+    <Property Name="Puntuacion" Type="int" Nullable="false" />
+    <Property Name="ID_Usuario" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_TipoUsuario" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FechaNac" Type="date" Nullable="false" />
+    <Property Name="Distrito" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Correo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Contraseña" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Celular" Type="nvarchar" MaxLength="50" />
+    <Property Name="CorreoSecundario" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="UsuarioPorCategoria">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Categoria" Type="int" Nullable="false" />
+    <Property Name="ID_Usuario" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Categoria_ArtistaPorCategoria">
+    <End Role="CategoriaTatuaje" Type="Self.CategoriaTatuaje" Multiplicity="1" />
+    <End Role="UsuarioPorCategoria" Type="Self.UsuarioPorCategoria" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CategoriaTatuaje">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="UsuarioPorCategoria">
+        <PropertyRef Name="ID_Categoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Categoria_Producto">
+    <End Role="CategoriaProducto" Type="Self.CategoriaProducto" Multiplicity="1" />
+    <End Role="Producto" Type="Self.Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CategoriaProducto">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Producto">
+        <PropertyRef Name="ID_CategoriaProducto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FacturaCompra_CompraDetalle">
+    <End Role="FacturaCompra" Type="Self.FacturaCompra" Multiplicity="1" />
+    <End Role="CompraDetalle" Type="Self.CompraDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FacturaCompra">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CompraDetalle">
+        <PropertyRef Name="ID_FacturaCompra" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Local_LocalPorartistaPorCategoria">
+    <End Role="Local" Type="Self.Local" Multiplicity="1" />
+    <End Role="LocalPorUsuarioPorCategoria" Type="Self.LocalPorUsuarioPorCategoria" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Local">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="LocalPorUsuarioPorCategoria">
+        <PropertyRef Name="ID_Local" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LocalPorUsuarioPorCategoria_UsuarioPorCategoria">
+    <End Role="UsuarioPorCategoria" Type="Self.UsuarioPorCategoria" Multiplicity="1" />
+    <End Role="LocalPorUsuarioPorCategoria" Type="Self.LocalPorUsuarioPorCategoria" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsuarioPorCategoria">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="LocalPorUsuarioPorCategoria">
+        <PropertyRef Name="ID_UsuarioPorCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Producto_CompraDetalle">
+    <End Role="Producto" Type="Self.Producto" Multiplicity="1" />
+    <End Role="CompraDetalle" Type="Self.CompraDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CompraDetalle">
+        <PropertyRef Name="ID_Producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reserva_LocalPorUsuarioPorCategoria">
+    <End Role="LocalPorUsuarioPorCategoria" Type="Self.LocalPorUsuarioPorCategoria" Multiplicity="1" />
+    <End Role="Reserva" Type="Self.Reserva" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LocalPorUsuarioPorCategoria">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Reserva">
+        <PropertyRef Name="ID_LocalPorUsuarioPorCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reserva_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Reserva" Type="Self.Reserva" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Reserva">
+        <PropertyRef Name="ID_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TipoDePago_FacturaCompra">
+    <End Role="TipoDePago" Type="Self.TipoDePago" Multiplicity="1" />
+    <End Role="FacturaCompra" Type="Self.FacturaCompra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoDePago">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="FacturaCompra">
+        <PropertyRef Name="ID_TipoDePago" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TrabajoRealizado_Opinion">
+    <End Role="TrabajoRealizado" Type="Self.TrabajoRealizado" Multiplicity="1" />
+    <End Role="Opinion" Type="Self.Opinion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TrabajoRealizado">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Opinion">
+        <PropertyRef Name="ID_TrabajoRealizado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TrabajoRealizado_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="TrabajoRealizado" Type="Self.TrabajoRealizado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TrabajoRealizado">
+        <PropertyRef Name="ID_Usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_FacturaCompra">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="FacturaCompra" Type="Self.FacturaCompra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="FacturaCompra">
+        <PropertyRef Name="ID_Usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_TipoUsuario">
+    <End Role="TipoUsuario" Type="Self.TipoUsuario" Multiplicity="1" />
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoUsuario">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="ID_TipoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsuarioPorCategoria_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="UsuarioPorCategoria" Type="Self.UsuarioPorCategoria" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="UsuarioPorCategoria">
+        <PropertyRef Name="ID_Usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TattoTeansModelStoreContainer">
+    <EntitySet Name="CategoriaProducto" EntityType="Self.CategoriaProducto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CategoriaTatuaje" EntityType="Self.CategoriaTatuaje" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CompraDetalle" EntityType="Self.CompraDetalle" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FacturaCompra" EntityType="Self.FacturaCompra" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Local" EntityType="Self.Local" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LocalPorUsuarioPorCategoria" EntityType="Self.LocalPorUsuarioPorCategoria" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Opinion" EntityType="Self.Opinion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Producto" EntityType="Self.Producto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Reserva" EntityType="Self.Reserva" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoDePago" EntityType="Self.TipoDePago" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoUsuario" EntityType="Self.TipoUsuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TrabajoRealizado" EntityType="Self.TrabajoRealizado" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UsuarioPorCategoria" EntityType="Self.UsuarioPorCategoria" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Categoria_ArtistaPorCategoria" Association="Self.FK_Categoria_ArtistaPorCategoria">
+      <End Role="CategoriaTatuaje" EntitySet="CategoriaTatuaje" />
+      <End Role="UsuarioPorCategoria" EntitySet="UsuarioPorCategoria" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Categoria_Producto" Association="Self.FK_Categoria_Producto">
+      <End Role="CategoriaProducto" EntitySet="CategoriaProducto" />
+      <End Role="Producto" EntitySet="Producto" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FacturaCompra_CompraDetalle" Association="Self.FK_FacturaCompra_CompraDetalle">
+      <End Role="FacturaCompra" EntitySet="FacturaCompra" />
+      <End Role="CompraDetalle" EntitySet="CompraDetalle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Local_LocalPorartistaPorCategoria" Association="Self.FK_Local_LocalPorartistaPorCategoria">
+      <End Role="Local" EntitySet="Local" />
+      <End Role="LocalPorUsuarioPorCategoria" EntitySet="LocalPorUsuarioPorCategoria" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LocalPorUsuarioPorCategoria_UsuarioPorCategoria" Association="Self.FK_LocalPorUsuarioPorCategoria_UsuarioPorCategoria">
+      <End Role="UsuarioPorCategoria" EntitySet="UsuarioPorCategoria" />
+      <End Role="LocalPorUsuarioPorCategoria" EntitySet="LocalPorUsuarioPorCategoria" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Producto_CompraDetalle" Association="Self.FK_Producto_CompraDetalle">
+      <End Role="Producto" EntitySet="Producto" />
+      <End Role="CompraDetalle" EntitySet="CompraDetalle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reserva_LocalPorUsuarioPorCategoria" Association="Self.FK_Reserva_LocalPorUsuarioPorCategoria">
+      <End Role="LocalPorUsuarioPorCategoria" EntitySet="LocalPorUsuarioPorCategoria" />
+      <End Role="Reserva" EntitySet="Reserva" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reserva_Usuario" Association="Self.FK_Reserva_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Reserva" EntitySet="Reserva" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TipoDePago_FacturaCompra" Association="Self.FK_TipoDePago_FacturaCompra">
+      <End Role="TipoDePago" EntitySet="TipoDePago" />
+      <End Role="FacturaCompra" EntitySet="FacturaCompra" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TrabajoRealizado_Opinion" Association="Self.FK_TrabajoRealizado_Opinion">
+      <End Role="TrabajoRealizado" EntitySet="TrabajoRealizado" />
+      <End Role="Opinion" EntitySet="Opinion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TrabajoRealizado_Usuario" Association="Self.FK_TrabajoRealizado_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="TrabajoRealizado" EntitySet="TrabajoRealizado" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_FacturaCompra" Association="Self.FK_Usuario_FacturaCompra">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="FacturaCompra" EntitySet="FacturaCompra" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_TipoUsuario" Association="Self.FK_Usuario_TipoUsuario">
+      <End Role="TipoUsuario" EntitySet="TipoUsuario" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsuarioPorCategoria_Usuario" Association="Self.FK_UsuarioPorCategoria_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="UsuarioPorCategoria" EntitySet="UsuarioPorCategoria" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

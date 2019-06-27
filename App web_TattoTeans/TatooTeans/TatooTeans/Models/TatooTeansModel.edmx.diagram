@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="92eacfa2290d47e89ee5f4f9d32ff4a0" Name="Diagram1">
+        <EntityTypeShape EntityType="TattoTeansModel.CategoriaProducto" Width="1.5" PointX="3" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TattoTeansModel.CategoriaTatuaje" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="TattoTeansModel.CompraDetalle" Width="1.5" PointX="7.5" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TattoTeansModel.FacturaCompra" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TattoTeansModel.Local" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TattoTeansModel.LocalPorUsuarioPorCategoria" Width="1.5" PointX="7.5" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TattoTeansModel.Opinion" Width="1.5" PointX="7.5" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="TattoTeansModel.Producto" Width="1.5" PointX="5.25" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TattoTeansModel.Reserva" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TattoTeansModel.sysdiagram" Width="1.5" PointX="7.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TattoTeansModel.TipoDePago" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TattoTeansModel.TipoUsuario" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TattoTeansModel.TrabajoRealizado" Width="1.5" PointX="5.25" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TattoTeansModel.Usuario" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TattoTeansModel.UsuarioPorCategoria" Width="1.5" PointX="5.25" PointY="9.875" IsExpanded="true" />
+        <AssociationConnector Association="TattoTeansModel.FK_Categoria_Producto" ManuallyRouted="false" />
+        <AssociationConnector Association="TattoTeansModel.FK_Categoria_ArtistaPorCategoria" ManuallyRouted="false" />
+        <AssociationConnector Association="TattoTeansModel.FK_FacturaCompra_CompraDetalle" ManuallyRouted="false" />
+        <AssociationConnector Association="TattoTeansModel.FK_Producto_CompraDetalle" ManuallyRouted="false" />
+        <AssociationConnector Association="TattoTeansModel.FK_TipoDePago_FacturaCompra" ManuallyRouted="false" />
+        <AssociationConnector Association="TattoTeansModel.FK_Usuario_FacturaCompra" ManuallyRouted="false" />
+        <AssociationConnector Association="TattoTeansModel.FK_Local_LocalPorartistaPorCategoria" ManuallyRouted="false" />
+        <AssociationConnector Association="TattoTeansModel.FK_LocalPorUsuarioPorCategoria_UsuarioPorCategoria" ManuallyRouted="false" />
+        <AssociationConnector Association="TattoTeansModel.FK_Reserva_LocalPorUsuarioPorCategoria" ManuallyRouted="false" />
+        <AssociationConnector Association="TattoTeansModel.FK_TrabajoRealizado_Opinion" ManuallyRouted="false" />
+        <AssociationConnector Association="TattoTeansModel.FK_Reserva_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="TattoTeansModel.FK_Usuario_TipoUsuario" ManuallyRouted="false" />
+        <AssociationConnector Association="TattoTeansModel.FK_TrabajoRealizado_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="TattoTeansModel.FK_UsuarioPorCategoria_Usuario" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

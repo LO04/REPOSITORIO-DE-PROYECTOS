@@ -1,0 +1,755 @@
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\ApplicationInsights.config
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\TatooTeans.dll.config
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\TatooTeans.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\TatooTeans.pdb
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\csc.exe
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\csc.exe.config
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\csc.rsp
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\csi.exe
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\csi.exe.config
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\csi.rsp
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.AppContext.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.Console.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.IO.Compression.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.Security.Claims.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.ValueTuple.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\vbc.exe
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\vbc.exe.config
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\vbc.rsp
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\VBCSCompiler.exe
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Antlr3.Runtime.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Microsoft.AI.Web.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Newtonsoft.Json.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\System.Web.Helpers.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\System.Web.Mvc.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\System.Web.Optimization.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\System.Web.Razor.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\System.Web.WebPages.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\System.Web.WebPages.Razor.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\WebGrease.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\System.Web.Helpers.xml
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\System.Web.Mvc.xml
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\System.Web.Optimization.xml
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\System.Web.Razor.xml
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\System.Web.WebPages.xml
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\System.Web.WebPages.Razor.xml
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Newtonsoft.Json.xml
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Antlr3.Runtime.pdb
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Microsoft.AI.Web.xml
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csprojAssemblyReference.cache
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csproj.CoreCompileInputs.cache
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csproj.CopyComplete
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\obj\Debug\TatooTeans.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\obj\Debug\TatooTeans.pdb
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\EntityFramework.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\EntityFramework.SqlServer.dll
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\EntityFramework.xml
+C:\Users\ALVARO\Desktop\TatooTeans\TatooTeans\bin\EntityFramework.SqlServer.xml
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\ApplicationInsights.config
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\TatooTeans.dll.config
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\TatooTeans.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\TatooTeans.pdb
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\csc.exe
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\csc.exe.config
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\csc.rsp
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\csi.exe
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\csi.exe.config
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\csi.rsp
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.AppContext.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.Console.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.IO.Compression.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.IO.Pipes.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.Security.Claims.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.ValueTuple.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XPath.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\vbc.exe
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\vbc.exe.config
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\vbc.rsp
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\VBCSCompiler.exe
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Antlr3.Runtime.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\EntityFramework.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\EntityFramework.SqlServer.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Microsoft.AI.Web.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Microsoft.ApplicationInsights.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Newtonsoft.Json.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\System.Web.Helpers.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\System.Web.Mvc.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\System.Web.Optimization.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\System.Web.Razor.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\System.Web.WebPages.Deployment.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\System.Web.WebPages.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\System.Web.WebPages.Razor.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\WebGrease.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\EntityFramework.xml
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\EntityFramework.SqlServer.xml
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\System.Web.Helpers.xml
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\System.Web.Mvc.xml
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\System.Web.Optimization.xml
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\System.Web.Razor.xml
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\System.Web.WebPages.xml
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\System.Web.WebPages.Deployment.xml
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\System.Web.WebPages.Razor.xml
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Newtonsoft.Json.xml
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Antlr3.Runtime.pdb
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Microsoft.AI.Web.xml
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csprojAssemblyReference.cache
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csproj.CoreCompileInputs.cache
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csproj.CopyComplete
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\obj\Debug\TatooTeans.dll
+C:\Users\maxla\Downloads\TatooTeans\TatooTeans\TatooTeans\obj\Debug\TatooTeans.pdb
+E:\TatooTeans\TatooTeans\bin\ApplicationInsights.config
+E:\TatooTeans\TatooTeans\bin\TatooTeans.dll.config
+E:\TatooTeans\TatooTeans\bin\TatooTeans.dll
+E:\TatooTeans\TatooTeans\bin\TatooTeans.pdb
+E:\TatooTeans\TatooTeans\bin\roslyn\csc.exe
+E:\TatooTeans\TatooTeans\bin\roslyn\csc.exe.config
+E:\TatooTeans\TatooTeans\bin\roslyn\csc.rsp
+E:\TatooTeans\TatooTeans\bin\roslyn\csi.exe
+E:\TatooTeans\TatooTeans\bin\roslyn\csi.exe.config
+E:\TatooTeans\TatooTeans\bin\roslyn\csi.rsp
+E:\TatooTeans\TatooTeans\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\TatooTeans\TatooTeans\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\Microsoft.Managed.Core.targets
+E:\TatooTeans\TatooTeans\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\TatooTeans\TatooTeans\bin\roslyn\System.AppContext.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.Collections.Immutable.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.Console.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.IO.Compression.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.IO.FileSystem.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.IO.Pipes.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.Reflection.Metadata.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.Security.AccessControl.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.Security.Claims.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.Security.Principal.Windows.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.ValueTuple.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XmlDocument.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XPath.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\TatooTeans\TatooTeans\bin\roslyn\vbc.exe
+E:\TatooTeans\TatooTeans\bin\roslyn\vbc.exe.config
+E:\TatooTeans\TatooTeans\bin\roslyn\vbc.rsp
+E:\TatooTeans\TatooTeans\bin\roslyn\VBCSCompiler.exe
+E:\TatooTeans\TatooTeans\bin\roslyn\VBCSCompiler.exe.config
+E:\TatooTeans\TatooTeans\bin\Antlr3.Runtime.dll
+E:\TatooTeans\TatooTeans\bin\EntityFramework.dll
+E:\TatooTeans\TatooTeans\bin\EntityFramework.SqlServer.dll
+E:\TatooTeans\TatooTeans\bin\Microsoft.AI.Agent.Intercept.dll
+E:\TatooTeans\TatooTeans\bin\Microsoft.AI.DependencyCollector.dll
+E:\TatooTeans\TatooTeans\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\TatooTeans\TatooTeans\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\TatooTeans\TatooTeans\bin\Microsoft.AI.Web.dll
+E:\TatooTeans\TatooTeans\bin\Microsoft.AI.WindowsServer.dll
+E:\TatooTeans\TatooTeans\bin\Microsoft.ApplicationInsights.dll
+E:\TatooTeans\TatooTeans\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\TatooTeans\TatooTeans\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\TatooTeans\TatooTeans\bin\Microsoft.Web.Infrastructure.dll
+E:\TatooTeans\TatooTeans\bin\Newtonsoft.Json.dll
+E:\TatooTeans\TatooTeans\bin\System.Diagnostics.DiagnosticSource.dll
+E:\TatooTeans\TatooTeans\bin\System.Web.Helpers.dll
+E:\TatooTeans\TatooTeans\bin\System.Web.Mvc.dll
+E:\TatooTeans\TatooTeans\bin\System.Web.Optimization.dll
+E:\TatooTeans\TatooTeans\bin\System.Web.Razor.dll
+E:\TatooTeans\TatooTeans\bin\System.Web.WebPages.Deployment.dll
+E:\TatooTeans\TatooTeans\bin\System.Web.WebPages.dll
+E:\TatooTeans\TatooTeans\bin\System.Web.WebPages.Razor.dll
+E:\TatooTeans\TatooTeans\bin\WebGrease.dll
+E:\TatooTeans\TatooTeans\bin\EntityFramework.xml
+E:\TatooTeans\TatooTeans\bin\EntityFramework.SqlServer.xml
+E:\TatooTeans\TatooTeans\bin\System.Web.Helpers.xml
+E:\TatooTeans\TatooTeans\bin\System.Web.Mvc.xml
+E:\TatooTeans\TatooTeans\bin\System.Web.Optimization.xml
+E:\TatooTeans\TatooTeans\bin\System.Web.Razor.xml
+E:\TatooTeans\TatooTeans\bin\System.Web.WebPages.xml
+E:\TatooTeans\TatooTeans\bin\System.Web.WebPages.Deployment.xml
+E:\TatooTeans\TatooTeans\bin\System.Web.WebPages.Razor.xml
+E:\TatooTeans\TatooTeans\bin\Newtonsoft.Json.xml
+E:\TatooTeans\TatooTeans\bin\Antlr3.Runtime.pdb
+E:\TatooTeans\TatooTeans\bin\System.Diagnostics.DiagnosticSource.xml
+E:\TatooTeans\TatooTeans\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\TatooTeans\TatooTeans\bin\Microsoft.AI.DependencyCollector.xml
+E:\TatooTeans\TatooTeans\bin\Microsoft.AI.WindowsServer.xml
+E:\TatooTeans\TatooTeans\bin\Microsoft.AI.Web.xml
+E:\TatooTeans\TatooTeans\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csprojAssemblyReference.cache
+E:\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csproj.CoreCompileInputs.cache
+E:\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csproj.CopyComplete
+E:\TatooTeans\TatooTeans\obj\Debug\TatooTeans.dll
+E:\TatooTeans\TatooTeans\obj\Debug\TatooTeans.pdb
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\ApplicationInsights.config
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\TatooTeans.dll.config
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\TatooTeans.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\TatooTeans.pdb
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\csc.exe
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\csc.exe.config
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\csc.rsp
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\csi.exe
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\csi.exe.config
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\csi.rsp
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.AppContext.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.Console.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.IO.Compression.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.IO.Pipes.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.Security.Claims.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.ValueTuple.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XPath.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\vbc.exe
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\vbc.exe.config
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\vbc.rsp
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\VBCSCompiler.exe
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Antlr3.Runtime.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\EntityFramework.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\EntityFramework.SqlServer.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Microsoft.AI.Web.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Microsoft.ApplicationInsights.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Newtonsoft.Json.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\System.Web.Helpers.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\System.Web.Mvc.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\System.Web.Optimization.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\System.Web.Razor.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\System.Web.WebPages.Deployment.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\System.Web.WebPages.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\System.Web.WebPages.Razor.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\WebGrease.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\EntityFramework.xml
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\EntityFramework.SqlServer.xml
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\System.Web.Helpers.xml
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\System.Web.Mvc.xml
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\System.Web.Optimization.xml
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\System.Web.Razor.xml
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\System.Web.WebPages.xml
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\System.Web.WebPages.Deployment.xml
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\System.Web.WebPages.Razor.xml
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Newtonsoft.Json.xml
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Antlr3.Runtime.pdb
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Microsoft.AI.Web.xml
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\obj\Debug\TatooTeans.dll
+C:\Users\maxla\Desktop\TatooTeans (2)\TatooTeans\TatooTeans\obj\Debug\TatooTeans.pdb
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\ApplicationInsights.config
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\TatooTeans.dll.config
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\TatooTeans.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\TatooTeans.pdb
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\csc.exe
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\csc.exe.config
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\csc.rsp
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\csi.exe
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\csi.exe.config
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\csi.rsp
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.AppContext.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.Console.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.IO.Compression.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.Security.Claims.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.ValueTuple.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\vbc.exe
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\vbc.exe.config
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\vbc.rsp
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\VBCSCompiler.exe
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Antlr3.Runtime.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\EntityFramework.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\EntityFramework.SqlServer.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Microsoft.AI.Web.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Newtonsoft.Json.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\System.Web.Helpers.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\System.Web.Mvc.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\System.Web.Optimization.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\System.Web.Razor.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\System.Web.WebPages.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\System.Web.WebPages.Razor.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\WebGrease.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\EntityFramework.xml
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\EntityFramework.SqlServer.xml
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\System.Web.Helpers.xml
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\System.Web.Mvc.xml
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\System.Web.Optimization.xml
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\System.Web.Razor.xml
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\System.Web.WebPages.xml
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\System.Web.WebPages.Razor.xml
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Newtonsoft.Json.xml
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Antlr3.Runtime.pdb
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Microsoft.AI.Web.xml
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csprojAssemblyReference.cache
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csproj.CoreCompileInputs.cache
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csproj.CopyComplete
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\obj\Debug\TatooTeans.dll
+C:\Users\ALVARO\Downloads\TatooTeans\TatooTeans\obj\Debug\TatooTeans.pdb
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\ApplicationInsights.config
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\TatooTeans.dll.config
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\TatooTeans.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\TatooTeans.pdb
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csc.exe
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csc.exe.config
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csc.rsp
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csi.exe
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csi.exe.config
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csi.rsp
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.AppContext.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Console.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.IO.Compression.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Claims.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.ValueTuple.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\vbc.exe
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\vbc.exe.config
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\vbc.rsp
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\VBCSCompiler.exe
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Antlr3.Runtime.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\EntityFramework.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\EntityFramework.SqlServer.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.Web.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Newtonsoft.Json.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Helpers.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Mvc.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Optimization.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Razor.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.Razor.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\WebGrease.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\EntityFramework.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\EntityFramework.SqlServer.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Helpers.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Mvc.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Optimization.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Razor.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.Razor.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Newtonsoft.Json.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Antlr3.Runtime.pdb
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.Web.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csprojAssemblyReference.cache
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csproj.CoreCompileInputs.cache
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csproj.CopyComplete
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\obj\Debug\TatooTeans.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\obj\Debug\TatooTeans.pdb
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\ApplicationInsights.config
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\TatooTeans.dll.config
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\TatooTeans.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\TatooTeans.pdb
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csc.exe
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csc.exe.config
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csc.rsp
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csi.exe
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csi.exe.config
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csi.rsp
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.Managed.Core.targets
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.AppContext.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Collections.Immutable.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Console.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.IO.Compression.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.IO.FileSystem.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.IO.Pipes.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Reflection.Metadata.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.AccessControl.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Claims.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Principal.Windows.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.ValueTuple.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XmlDocument.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XPath.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\vbc.exe
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\vbc.exe.config
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\vbc.rsp
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\VBCSCompiler.exe
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\VBCSCompiler.exe.config
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Antlr3.Runtime.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\EntityFramework.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\EntityFramework.SqlServer.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.Agent.Intercept.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.DependencyCollector.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.Web.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.WindowsServer.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.ApplicationInsights.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.Web.Infrastructure.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Newtonsoft.Json.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Diagnostics.DiagnosticSource.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Helpers.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Mvc.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Optimization.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Razor.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.Deployment.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.Razor.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\WebGrease.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\EntityFramework.xml
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\EntityFramework.SqlServer.xml
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Helpers.xml
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Mvc.xml
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Optimization.xml
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Razor.xml
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.xml
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.Deployment.xml
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.Razor.xml
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Newtonsoft.Json.xml
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Antlr3.Runtime.pdb
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Diagnostics.DiagnosticSource.xml
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.DependencyCollector.xml
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.WindowsServer.xml
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.Web.xml
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csprojResolveAssemblyReference.cache
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\obj\Debug\TatooTeans.dll
+E:\evol\vi_02_tatooteans-v2\TatooTeansCodigo\TatooTeans\TatooTeans\obj\Debug\TatooTeans.pdb
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\ApplicationInsights.config
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\TatooTeans.dll.config
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\TatooTeans.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\TatooTeans.pdb
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csc.exe
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csc.exe.config
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csc.rsp
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csi.exe
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csi.exe.config
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\csi.rsp
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.AppContext.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Console.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.IO.Compression.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Claims.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.ValueTuple.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\vbc.exe
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\vbc.exe.config
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\vbc.rsp
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\VBCSCompiler.exe
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Antlr3.Runtime.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\EntityFramework.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\EntityFramework.SqlServer.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.Web.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Newtonsoft.Json.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Helpers.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Mvc.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Optimization.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Razor.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.Razor.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\WebGrease.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\EntityFramework.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\EntityFramework.SqlServer.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Helpers.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Mvc.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Optimization.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.Razor.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Web.WebPages.Razor.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Newtonsoft.Json.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Antlr3.Runtime.pdb
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.AI.Web.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csprojAssemblyReference.cache
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csproj.CoreCompileInputs.cache
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\obj\Debug\TatooTeans.csproj.CopyComplete
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\obj\Debug\TatooTeans.dll
+C:\Users\ALVARO\Desktop\Repositorio\vi_02_tatooteans\TatooTeansCodigo\TatooTeans\TatooTeans\obj\Debug\TatooTeans.pdb

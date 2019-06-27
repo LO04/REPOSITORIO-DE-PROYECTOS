@@ -1,0 +1,112 @@
+﻿
+@model TatooTeans.Models.Usuario
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="container">
+
+        <div class="register-form">
+            <div class="register-wrap">
+                <h3 class="center-block">Editar Perfil</h3>
+                <br />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.ID)
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_profile"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Nombre
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.Nombre, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_book"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Apellido
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.Apellido, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Apellido, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_globe-2"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Fecha Nacimiento
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.FechaNac, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FechaNac, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_map"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Distrito
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.Distrito, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Distrito, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_genius"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Direccion
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.Direccion, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Direccion, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_mail"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Correo
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.Correo, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Correo, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_key_alt"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Contraseña
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.Contraseña, new { htmlAttributes = new { @class = "form-control", type = "password" } })
+                        @Html.ValidationMessageFor(model => model.Contraseña, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon-next"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Celular
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.Celular, new { htmlAttributes = new { @class = "form-control", type = "password" } })
+                        @Html.ValidationMessageFor(model => model.Celular, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_mail"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Correo Secundario
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.CorreoSecundario, new { htmlAttributes = new { @class = "form-control", type = "password" } })
+                        @Html.ValidationMessageFor(model => model.CorreoSecundario, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="centered">@ViewBag.ErrorMessage</div>
+                <br />
+
+
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Guardar Cambios</button>
+            </div>
+        </div>
+
+    </div>
+    <br />
+}

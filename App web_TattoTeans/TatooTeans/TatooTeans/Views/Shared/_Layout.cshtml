@@ -1,0 +1,182 @@
+﻿@using TatooTeans.Models
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/elegant-icons-style.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link href="~/Content/style-responsive.css" rel="stylesheet" />
+
+
+    <script src="~/Scripts/Admin/scripts.js"></script>
+    <script src="~/Scripts/Admin/jquery.scrollTo.min.js"></script>
+    <script src="~/Scripts/Admin/jquery.nicescroll.js"></script>
+    <script src="~/Scripts/Admin/jquery.knob.js"></script>
+    <script src="~/Scripts/Admin/jquery.js"></script>
+
+
+
+
+</head>
+@{  
+    Usuario usuario = ((Usuario)Session["Usuario"]);
+    string imagen = string.Empty;
+    if (usuario == null){
+        imagen = "login-imgagen";
+    }
+    else if (usuario.TipoUsuario.Descripcion.ToLower() == "cliente"){
+        imagen = "login-imgagen";
+    }
+    else if (usuario.TipoUsuario.Descripcion.ToLower() == "tatuador") {
+        imagen = "login-imgagen";
+    }
+    else if (usuario.TipoUsuario.Descripcion.ToLower() == "administrador"){
+        imagen = "administrador-imgagen";
+    }
+    <body class=@imagen>
+
+        @if (Session["Usuario"] == null)
+        {
+
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Tattoo Teans</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="/Home/Index">Home</a></li>
+                        <li><a href="/Home/Pregutasfrecuentes">Preguntas Fracuentes</a></li>
+                        <li><a href="/Home/About">About</a></li>
+                        <li><a href="/Home/Contact">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/Usuarios/CreateI"><span class="glyphicon glyphicon-user"></span> Registrarse</a></li>
+                        <li><a href="/Usuarios/Login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+
+            <div class="container body-content">
+                @RenderBody()
+            </div>
+
+        }
+        else if (usuario.TipoUsuario.Descripcion.ToLower() == "cliente")
+        {
+
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header active">
+                        <a class="navbar-brand" href="#">Tattoo Teans</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="/Home/Index">Home</a></li>
+                        <li><a href="/Home/Pregutasfrecuentes">Preguntas Fracuentes</a></li>
+                        <li><a href="/Home/About">About</a></li>
+                        <li><a href="/Home/Contact">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Bienvenido @usuario.Nombre
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/Usuarios/EditI/" +((Usuario)Session["Usuario"]).ID><span class="icon_profile"></span>&nbsp;Editar Perfil</a></li>
+                                <li><a href="/Usuarios/Buscar/"><span class="icon_profile"></span>&nbsp;Buscar Perfil</a></li>
+                                <li><a href="/Usuarios/LogOut"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Salir</a></li>
+                                <li><a href="/Usuarios/CerrarCuenta"><span class="icon_close_alt"></span>&nbsp;Eliminar cuenta</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="container body-content">
+                @RenderBody()
+            </div>
+        }
+        else if (usuario.TipoUsuario.Descripcion.ToLower() == "tatuador")
+        {
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header active">
+                        <a class="navbar-brand" href="#">Tattoo Teans</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="/Home/Index">Home</a></li>
+                        <li><a href="/Usuarios/CrearEventoCronograma">Crear Cronograma</a></li>
+                        <li><a href="/CompraDetalles/Orden">Comprar</a></li>
+                        <li><a href="/Home/Contact">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Bienvenido @usuario.Nombre
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/Usuarios/EditI/" +((Usuario)Session["Usuario"]).ID><span class="icon_profile"></span>&nbsp;Editar Perfil</a></li>
+                                <li><a href="/Usuarios/LogOut"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Salir</a></li>
+                                <li><a href="/Usuarios/CerrarCuenta"><span class="icon_close_alt"></span>&nbsp;Cerrar cuenta</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="container body-content">
+                @RenderBody()
+            </div>
+        }
+        else if (usuario.TipoUsuario.Descripcion.ToLower() == "administrador")
+        {
+
+            <header class="header dark-bg navbar">
+                <a href="#" class="logo">
+                    Administrador
+                    <span class="lite">Tattoo Teans</span>
+                </a>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            Bienvenido @usuario.Nombre
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Usuarios/EditI/" +((Usuario)Session["Usuario"]).ID><span class="icon_profile"></span>&nbsp;Editar Perfil</a></li>
+                            <li><a href="/Usuarios/LogOut"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Salir</a></li>
+                            <li><a href="/Usuarios/CerrarCuenta"><span class="icon_close_alt"></span>&nbsp;Cerrar cuenta</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </header>
+
+            <div>
+                <row class="col-lg-2">
+                    @Html.Partial("_AdminLateral")
+                </row>
+                <row class="col-lg-10">
+                    @RenderBody()
+                </row>
+
+            </div>
+        }
+
+    </body>
+
+}
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@RenderSection("scripts", required: false)
+</html>

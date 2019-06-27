@@ -1,0 +1,31 @@
+﻿/* SplitCollapsible Module
+******************************************************************************/
+
+$(document).ready(function () {
+    $(".splitCollapsible").each(function () {
+        var mod = new SplitCollapsibleModule($(this));
+        mod.Startup();
+    });
+});
+
+
+var SplitCollapsibleModule = function (el$) {
+    this._el$ = el$;
+    this._h2$ = this._el$.find(">h2");
+    this._div$ = this._el$.find(">div");
+    // NOTE:  This is a fix for IE9 and IE10 that leaves artifacts when animating elements with box-shadow so we remove it before the animation and then retore it after the animation is complete
+    this._oldBoxShadow = this._el$.css("box-shadow");
+};
+
+SplitCollapsibleModule.prototype.Startup = function () {
+    var me = this;
+    this._h2$.on("click", function () {
+        me._el$.css("box-shadow", "none");
+        me._div$.stop(true,false).slideToggle('fast', function () {
+            me._el$.css("box-shadow", me._oldBoxShadow);
+        });
+        me._el$.toggleClass('open');
+    });
+};
+
+

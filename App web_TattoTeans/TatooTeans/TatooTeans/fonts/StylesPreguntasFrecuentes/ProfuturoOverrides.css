@@ -1,0 +1,490 @@
+/* Tags */
+html  { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+
+body  { margin: 0; width: 1000px; max-width: 1000px; margin: 0px auto; padding: 0; font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; color: #6C6C6C; font-size: 14px; line-height: 1.3em; background: url('//scotiabankfiles.azureedge.net/scotiabank-peru/Profuturo/images/bg_desktop_diagonal.png') #ebebeb repeat top left; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary  { display: block; }
+
+a  { color: #EE3224; text-decoration: none; background-color: transparent; }
+    a:active, a:hover  { outline: 0; text-decoration: underline; }
+
+b, strong  { font-weight: bold; }
+
+p  { margin: 18px 0; }
+
+h1, h2, h3, h4, h5, h6  { margin: 0 0 20px 0; font-weight: 700; line-height: 1.2em; }
+h1  { font-size: 32px; }
+h2  { font-size: 28px; }
+h3  { font-size: 22px; }
+h4  { font-size: 20px; }
+h5  { font-size: 16px; }
+h6  { font-size: 14px; }
+h1, h2, h3  { color: #ed2924; }
+h4, h5, h6  { color: #FDBB2F; }
+
+small  { font-size: 80%; }
+
+sub, sup  { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup  { top: -0.5em; }
+sub  { bottom: -0.25em; }
+
+img  { border: 0; }
+
+figure  { margin: 0; }
+
+hr  { -moz-box-sizing: content-box; box-sizing: content-box; height: 0; }
+
+button, input, optgroup, select, textarea  { color: inherit; font: inherit; margin: 0; }
+button  { overflow: visible; }
+button, select  { text-transform: none; }
+button, html input[type="button"], input[type="reset"], input[type="submit"]  { -webkit-appearance: button; cursor: pointer; }
+    button[disabled], html input[disabled]  { cursor: default; }
+    button::-moz-focus-inner, input::-moz-focus-inner  { border: 0; padding: 0; }
+
+input  { line-height: normal; }
+    input[type="checkbox"], input[type="radio"]  { box-sizing: border-box; padding: 0; }
+    input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button  { height: auto; }
+    input[type="search"]  { -webkit-appearance: textfield; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+        input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration  { -webkit-appearance: none; }
+
+fieldset  { border: none; margin: 0; padding: 0; }
+
+legend  { border: 0; padding: 0; }
+
+textarea  { overflow: auto; resize:vertical; }
+
+optgroup  { font-weight: bold; }
+
+table  { border-collapse: collapse; border-spacing: 0; }
+td, th  { padding: 0; }
+
+/* Selectors */
+.validation  { position: absolute; width: 20px; height: 20px; background: url("//scotiabankfiles.azureedge.net/scotiabank-peru/WebsiteTheme/validation.png") no-repeat 32px center; top: 1px; }
+.valid ~ .validation  { background-position: -32px center; }
+.input-validation-error ~ .validation, .valid ~ .input-validation-error ~ .validation  { background-position: 0px center; }
+input[type="radio"].valid ~ .validation  { background-position: -32px center; }
+.ErrorSummary ul li  { list-style-type: none; color: #D81E05; }
+
+.button  { display: inline-block; padding: 9px 13px; color: #FFF; line-height: 1em; text-align: center; background-color: #EE3224; box-shadow: 0 -48px 32px -32px rgba(0,0,0,0.25) inset; border: none; cursor: pointer; *display: inline; zoom: 1; -webkit-box-shadow: 0 -48px 32px -32px rgba(0,0,0,0.25) inset; -moz-box-shadow: 0 -48px 32px -32px rgba(0,0,0,0.25) inset; -ms-box-shadow: 0 -48px 32px -32px rgba(0,0,0,0.25) inset; -o-box-shadow: 0 -48px 32px -32px rgba(0,0,0,0.25) inset; }
+    .button:hover  { text-decoration: none; box-shadow: 0 -48px 32px -32px rgba(0,0,0,0.4) inset; -webkit-box-shadow: 0 -48px 32px -32px rgba(0,0,0,0.4) inset; -moz-box-shadow: 0 -48px 32px -32px rgba(0,0,0,0.4) inset; -ms-box-shadow: 0 -48px 32px -32px rgba(0,0,0,0.4) inset; -o-box-shadow: 0 -48px 32px -32px rgba(0,0,0,0.4) inset; }
+
+.mobile  { display: none !important; }
+
+.show  { display: initial !important; }
+.hide  { display: none !important; }
+.hidden  { display:none !important; }
+
+/* General */
+body > div  { background-color: #fff; }
+
+#siteHeader  { position: relative; height: 125px; margin-bottom: 3px; border-bottom: 5px solid #d8d8d8; padding: 20px; box-sizing: border-box; }
+    #siteHeader > aside  { position: absolute; right: 20px; top: 12px; text-align: right; }
+    #siteHeader > #siteLogo  { display: inline-block; margin-left: 50px; *display: inline; zoom: 1; }
+
+ul#headerSocialMedia  { margin: 0; padding: 0; }
+    ul#headerSocialMedia > li:first-of-type  { font-weight: bold; }
+    ul#headerSocialMedia > li  { list-style-type: none; vertical-align: middle; display: inline-block; padding: 0 0 0 5px; *display: inline; zoom: 1; }
+
+#headerContactInfo  { margin-top: 15px; font-size: 18px; line-height: 22px; }
+    #headerContactInfo > a > img  { width: auto; height: 20px; padding-right: 8px; vertical-align: middle; cursor: default; }
+    #headerContactInfo > span  { padding-right: 0; vertical-align: middle; }
+    #headerContactInfo > ul  { display: inline; padding: 0; margin: 0; vertical-align: middle; }
+        #headerContactInfo > ul li  { display: inline; }
+            #headerContactInfo > ul li + li  { display: block; }
+
+#siteFooter  { background: url('//scotiabankfiles.azureedge.net/scotiabank-peru/Profuturo/images/bg_desktop_diagonal.png') #f7f7f7 repeat top left; }
+    #siteFooter ul  { margin: 0 auto; padding: 0; list-style-type: none; }
+    #siteFooter > ul > li  { width: 27%; margin: 0 0 0 20px; padding: 0 0 0 20px; display: inline-block; vertical-align: top; box-shadow: -28px 0px 40px -40px #000; *display: inline; zoom: 1; -webkit-box-shadow: -28px 0px 40px -40px #000; -moz-box-shadow: -28px 0px 40px -40px #000; -ms-box-shadow: -28px 0px 40px -40px #000; -o-box-shadow: -28px 0px 40px -40px #000; }
+        #siteFooter > ul > li + li  { width: 36%; }
+            #siteFooter > ul > li + li + li  { width: 23%; }
+        #siteFooter > ul > li h3  { font-size: 22px; margin: 17px 0; }
+        #siteFooter > ul > li > ul#footerLinks  { height: 205px; padding-right: 40px; }
+        #siteFooter > ul > li + li + li > ul#footerLinks  { padding-right: 5px; }
+        #siteFooter > ul > li > ul#footerLinks > li  { height: 28px; margin: 0 0 5px 0; padding: 5px 20px; background-color: #fff; position: relative; }
+        #siteFooter > ul > li + li > ul#footerLinks > li  { height: 21px; margin-bottom: 3px; }
+        #siteFooter > ul > li + li + li > ul#footerLinks > li  { height: 40px; margin-bottom: 9px; padding: 5px 10px; }
+        #siteFooter > ul > li > ul#footerLinks > li > a  { color: #707070; position: absolute; top: 25%; cursor: pointer; }
+        #siteFooter > ul > li + li + li > ul#footerLinks > li > a  { top: 7px; }
+            #siteFooter > ul > li > ul#footerLinks > li > a img  { float: left; display: block; margin: -4px 0 0 -10px; padding-right: 15px; }
+    #siteFooter > section  { background-color: #E50E1D; padding: 8px 20px; color: white; position: relative; }
+        #siteFooter > section > section  { display: inline-block; font-size: 14px; *display: inline; zoom: 1; }
+        #siteFooter > section > #footerContactInfo ul#footerPhoneNumbers  { display: inline-block; padding: 0; *display: inline; zoom: 1; }
+            #siteFooter > section > #footerContactInfo ul#footerPhoneNumbers > li  { display: inline-block; *display: inline; zoom: 1; }
+        #siteFooter > section > #termsAndConditions  { position: absolute; top: 9px; right: 20px; }
+            #siteFooter > section > #termsAndConditions > a  { color: #fff; }
+
+
+#siteContent  { position: relative; padding: 0 20px 20px 20px; border-top: 2px solid #ccc; background-color: #fff; box-shadow: 0 35px 50px -50px #000; z-index: 1; -webkit-box-shadow: 0 35px 50px -50px #000; -moz-box-shadow: 0 35px 50px -50px #000; -ms-box-shadow: 0 35px 50px -50px #000; -o-box-shadow: 0 35px 50px -50px #000; }
+
+#lightBox  { position: fixed; display: block; top: 0; left: 0; width: 100%; height: 0; text-align: center; vertical-align: middle; background-color: rgba(119, 119, 119, 0.85); background-image: none; overflow: hidden; opacity: 0.5; transition: all 0.1s linear; z-index: 9999; }
+    #lightBox .wrapper  { position: relative; display: inline-block; max-width: 96%; background-color: #fff; margin: 20px auto; padding: 60px 10px 10px 10px; vertical-align: middle; box-sizing: border-box; overflow: hidden; opacity: 0; transition: all 0.5s linear 0.5s; *display: inline; zoom: 1; }
+    #lightBox .close  { position: absolute; display: block; top: 10px; right: 10px; width: 40px; height: 40px; color: #6C6C6C; font-size: 0.001em; text-align: center; text-decoration: none; background-color: #fff; z-index: 999; cursor: pointer; }
+        #lightBox .close:hover  { color: #fff; background-color: #D00D1C; }
+        #lightBox .close:after  { content: "\00d7"; font-size: 32px; font-weight: 700; line-height: 38px; }
+    #lightBox.show  { height: 100%; opacity: 1; }
+        #lightBox.show .wrapper  { opacity: 1; }
+
+@media screen {
+    #lightBox.show  { overflow-y: auto; }
+}
+
+.lightBoxContent  { display: none; }
+#lightBox .lightBoxContent  { display: block; }
+#lightBox.colouring .wrapper  { text-align: center; }
+html.lightboxed body  { overflow-y: hidden; position: relative; width: 100%; }
+
+#siteContent > nav  { position: relative; margin: 2px -20px 0 -20px; background-color: #f0eee9; z-index: 999; }
+.megaMenu > ul  { padding: 10px 0; margin: 0; font-size: 0; white-space: nowrap; }
+    .megaMenu > ul > li  { display: inline-block; border-right: 1px solid #c7c7c7; *display: inline; zoom: 1; }
+        .megaMenu > ul > li ~ li  { border-left: 1px solid #d6d6d6; }
+        .megaMenu > ul > li + li + li + li  { border-right: none; }
+        .megaMenu > ul > li > a  { display: block; margin: -12px 0; padding: 18px 30px; color: #6C6C6C; font-family: 'Roboto Condensed'; font-size: 18px; font-weight: 400; text-align: center; text-decoration: none; text-transform: uppercase; }
+        .megaMenu > ul > li:hover > a, .megaMenu > ul > li.selected > a  { color: #fff; background-color: #75B93E; }
+        .megaMenu > ul > li + li:hover > a, .megaMenu > ul > li + li.selected > a  { background-color: #047EBF; }
+        .megaMenu > ul > li + li + li:hover > a, .megaMenu > ul > li + li + li.selected > a  { background-color: #D00D1C; }
+        .megaMenu > ul > li + li + li + li:hover > a, .megaMenu > ul > li + li + li + li.selected > a  { background-color: #E1A722; }
+        .megaMenu > ul > li > section > ul  { display: none; position: absolute; top: 51px; left: 0; right: 0; padding: 10px 0; background-color: #fff; border: 3px solid #75B93E; box-shadow: 0 18px 25px -25px #000; white-space: normal; -webkit-box-shadow: 0 18px 25px -25px #000; -moz-box-shadow: 0 18px 25px -25px #000; -ms-box-shadow: 0 18px 25px -25px #000; -o-box-shadow: 0 18px 25px -25px #000; }
+        .megaMenu > ul > li > section *  { border-color: #75B93E; }
+        .megaMenu > ul > li + li > section *  { border-color: #047EBF; }
+        .megaMenu > ul > li + li + li > section *  { border-color: #D00D1C; }
+        .megaMenu > ul > li + li + li + li > section *  { border-color: #E1A722; }
+        .megaMenu > ul > li:hover ul  { display: block; }
+    .megaMenu > ul li.Folder > a  { display: inline-block; width: 100%; padding: 8px 0 4px 0; font-family: Roboto; font-size: 14px; line-height: 16px; border-bottom: 1px solid #6c6c6c; vertical-align: -27px; *display: inline; zoom: 1; }
+    .megaMenu > ul > li > section > ul > li  { display: inline-block; padding: 0 10px; box-sizing: border-box; *display: inline; zoom: 1; }
+        .megaMenu > ul > li > section > ul > li.parent, .megaMenu > ul > li > section > ul > li.parent ~ li  { vertical-align: top; }
+        .megaMenu > ul > li > section > ul > li.Folder  { width: 16.6%; padding: 0 1% 10px 1%; }
+        .megaMenu > ul > li > section > ul > li.Page  { width: 66.7%; }
+            .megaMenu > ul > li > section > ul > li.Page + li  { width: 33.3%; }
+            .megaMenu > ul > li > section > ul > li.Page > a  { padding: 0 0 10px 0; font-family: Roboto; font-size: 18px; font-weight: 500; border-bottom-style: solid; border-bottom-width: 2px; }
+            .megaMenu > ul > li > section > ul > li.Page > section > ul  { margin: 0 -1%; }
+                .megaMenu > ul > li > section > ul > li.Page > section > ul > li.Folder  { display: inline-block; width: 23%; margin: 0 1%; vertical-align: top; *display: inline; zoom: 1; }
+            .megaMenu > ul > li > section > ul > li.Page + li > section > ul  { margin: 0 -2%; }
+                .megaMenu > ul > li > section > ul > li.Page + li > section > ul > li.Folder  { width: 46%; margin: 0 2%; }
+    .megaMenu > ul li.Folder > section > ul > li  { border-bottom: 1px solid #ccc; }
+        .megaMenu > ul li.Folder > section > ul > li > section > ul  { border-top: 1px solid #ccc; }
+            .megaMenu > ul li.Folder > section > ul > li > section > ul > li  { position: relative; padding-left: 20px; line-height: normal; }
+                .megaMenu > ul li.Folder > section > ul > li > section > ul > li:before  { content: "\25B6"; position: absolute; top: 50%; left: 5px; margin-top: -6px; color: #75B93E; font-size: 10px; line-height: 1em; }
+    .megaMenu > ul > li + li ul > li.Folder > section > ul > li > section > ul > li:before  { color: #047EBF; }
+    .megaMenu > ul > li + li + li ul > li.Folder > section > ul > li > section > ul > li:before  { color: #D00D1C; }
+    .megaMenu > ul > li + li + li + li ul > li.Folder > section > ul > li > section > ul > li:before  { color: #E1A722; }
+    .megaMenu > ul li.Folder > a:hover  { text-decoration: none; }
+    .megaMenu > ul > li ul li a  { display: block; padding: 4px 0; color: #6C6C6C; font-size: 12px; font-weight: 700; line-height: 15px; text-align: left; text-transform: none; vertical-align: bottom; }
+    .megaMenu > ul > li ul li ul  { padding: 0; }
+
+#siteContent #breadcrumbs  { margin: 15px 0; background-color: #fff; z-index: 0; }
+#breadcrumbs > a  { display: none; position: relative; margin-right: 16px; color: #CA5853; font-size: 12px; }
+#breadcrumbs > a  { display: inline; }
+    #breadcrumbs > a:hover  { text-decoration: none; border-bottom: 1px solid #CA5853; }
+    #breadcrumbs > a:not([href]):hover  { cursor: default; border-bottom: none; }
+    #breadcrumbs > a.current  { border-bottom: 1px solid #CA5853; }
+    #breadcrumbs > a ~ a:before  { content: "\25B6"; color: #AF4640; font: 11pt "Arial Unicode MS", Arial, Helvetica, sans-serif; top: -3px; left: -16px; height: 8px; width: 5px; position: absolute; text-decoration: none; }
+
+a#ingresaButton  { position: absolute; display: inline-block; top: 0; right: -28px; height: 30px; padding: 5px 15px 5px 40px; background-color: #EE3224; color: white; font-family: Roboto; font-size: 16px; line-height: 30px; text-transform: uppercase; box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.25) inset; cursor: pointer; *display: inline; zoom: 1; -webkit-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.25) inset; -moz-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.25) inset; -ms-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.25) inset; -o-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.25) inset; }
+    a#ingresaButton:hover  { box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.4) inset; -webkit-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.4) inset; -moz-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.4) inset; -ms-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.4) inset; -o-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.4) inset; }
+    a#ingresaButton:before  { position: absolute; content: url('//scotiabankfiles.azureedge.net/scotiabank-peru/Profuturo/images/icon_ingresa_lock.png'); top: 7px; left: 15px; }
+    a#ingresaButton:after  { position: absolute; content: "."; bottom: -8px; right: 0; height: 0; width: 0; font-size: 0.001em; border: 8px solid transparent; border-left-color: #600; border-right-width: 0; z-index: -1; }
+    a#ingresaButton > span  { display: inline-block; *display: inline; zoom: 1; }
+
+/*Home Page Template*/
+#top  { padding: 20px 0; box-shadow: 0 35px 50px -50px #000; -webkit-box-shadow: 0 35px 50px -50px #000; -moz-box-shadow: 0 35px 50px -50px #000; -ms-box-shadow: 0 35px 50px -50px #000; -o-box-shadow: 0 35px 50px -50px #000; }
+#main  { padding: 15px 0; margin-top: 5px; }
+
+#top > *  { display: inline-block; vertical-align: top; *display: inline; zoom: 1; }
+#top aside  { position: relative; width: 238px; margin: 0 -5px 0 15px; padding: 30px; color: #fff; font-size: 16px; text-align: center; background-color: #e12621; border-radius: 10px; box-sizing: border-box; }
+    #top aside:before  { content: url('//scotiabankfiles.azureedge.net/scotiabank-peru/Profuturo/images/icon_homepage_lock.png'); position: absolute; top: 0; left: 50%; margin: 22px 0 0 -33px; z-index: 99; }
+    #top aside h1, #top aside h2, #top aside a  { color: #fff; font-family: Roboto; font-weight: 300; cursor: pointer; }
+    #top aside h2  { margin: 50px 0 0 0; font-size: 24px; }
+    #top aside h1  { margin: 0 0 20px 0; font-size: 28px; font-weight: 400; }
+    #top aside hr  { position: relative; height: 0; margin: 25px 0 20px 0; border: 1px solid #fff; border-width: 1px 0 0 0; }
+    #top aside a.button  { width: 80%; padding: 10px 0; color: #808285; text-decoration: none; background: #fff; box-shadow: 0 -54px 36px -36px rgba(0,0,0,0.25) inset; -webkit-box-shadow: 0 -54px 36px -36px rgba(0,0,0,0.25) inset; -moz-box-shadow: 0 -54px 36px -36px rgba(0,0,0,0.25) inset; -ms-box-shadow: 0 -54px 36px -36px rgba(0,0,0,0.25) inset; -o-box-shadow: 0 -54px 36px -36px rgba(0,0,0,0.25) inset; }
+        #top aside a.button:hover  { box-shadow: 0 -54px 36px -36px rgba(0,0,0,0.4) inset; -webkit-box-shadow: 0 -54px 36px -36px rgba(0,0,0,0.4) inset; -moz-box-shadow: 0 -54px 36px -36px rgba(0,0,0,0.4) inset; -ms-box-shadow: 0 -54px 36px -36px rgba(0,0,0,0.4) inset; -o-box-shadow: 0 -54px 36px -36px rgba(0,0,0,0.4) inset; }
+    #top aside hr + a:before  { content: "\25B6"; color: #FDBB30; }
+
+/*Content Page Template*/
+#siteContent #sideNav  { display: inline-block; width: 25.5%; margin: 0 20px 0 0; vertical-align: top; padding-right: 15px; padding-bottom: 10px; background-color: transparent; border-right: 1px solid #979696; box-sizing: border-box; z-index: 0; *display: inline; zoom: 1; }
+#sideNav > section > h3  { display: none; }
+#siteContent #sideNav > section ul  { margin: 0; padding: 0; list-style-type: none; }
+#sideNav > section > ul a  { padding: 3px 0; display: block; color: #6C6C6C; }
+#sideNav > section > ul a.folder  { padding: 10px 0 0 0; color: #EE3224; font-size: 16px; cursor: default; }
+#sideNav > section > ul a.folder:hover  { text-decoration: none; }
+#sideNav > section > ul ul a.page + ul li  { position: relative; padding-left: 10px; }
+#sideNav > section > ul ul a.page + ul li:before  { content: "\25B6"; position: absolute; top: 50%; left: 0; margin-top: -5px; color: #EE3224; font-size: 10px; line-height: 1em; }
+    #sideNav > section > ul a.selected  { font-weight: 700; }
+#sideNav > section > ul > li  { margin-bottom: 30px; }
+    #sideNav > section > ul > li > a  { color: #ed2924; font-size: 18px; text-decoration: none; }
+    #sideNav > section > ul > li > ul  { padding: 0; }
+        #sideNav > section > ul > li > ul > li  { ; }
+
+#contentColumn  { display: inline-block; width: 100%; margin: 0 -1% 30px 0; *display: inline; zoom: 1; }
+    #contentColumn > section  { position: relative; }
+    #contentColumn #pageTitle:before  { content: ""; float: center; display: block; width: 100px; height: 1em; }
+
+
+#noColumn  { width: 100%; position: relative; }
+
+#searchForm  { position: absolute; display: block; right: 0; bottom: 5px; z-index: 105; }
+    #searchForm input[type='text']  { float: left; display: block; width: 216px; height: 40px; padding: 8px 10px; font-size: 18px; border: 1px solid #d8d8d8; border-right: none; box-sizing: border-box; }
+    #searchForm .button  { float: left; display: block; padding: 11px; box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.25) inset; -webkit-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.25) inset; -moz-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.25) inset; -ms-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.25) inset; -o-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.25) inset; }
+        #searchForm .button:hover  { box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.4) inset; -webkit-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.4) inset; -moz-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.4) inset; -ms-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.4) inset; -o-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.4) inset; }
+
+/* Modules */
+.rotator  { position: relative; width: 705px; height: 320px; }
+    .rotator > ul  { overflow: hidden; margin: 0; margin-left: 0%; padding: 0; list-style-type: none; white-space: nowrap; width: 100%; height: 100%; font-size: 0px; }
+        .rotator > ul li  { transition: margin-left ease-out 0.5s; -webkit-transition: margin-left ease-out 0.5s; }
+        .rotator > ul.pauseEffects  { transition: none; }
+        .rotator > ul li  { position: relative; display: inline-block; margin: 0; padding: 0; list-style-type: none; width: 100%; height: 100%; white-space: nowrap; *display: inline; zoom: 1; }
+            .rotator > ul li a  { display: block; width: 100%; }
+                .rotator > ul li a img  { width: 100%; height: auto; vertical-align: middle; }
+                .rotator > ul li a article  { position: absolute; bottom: 50px; left: 0; padding: 5px 10px; background-color: rgba(255,255,255,0.7); width: 85%; font-size: 14px; }
+    .rotator > nav .next  { display: none; }
+    .rotator > nav .prev  { display: none; }
+    .rotator > nav  { position: absolute; bottom: 10px; left: 0; width: 100%; text-align: center; }
+        .rotator > nav ul  { list-style-type: none; padding: 0px; margin: 0px; }
+            .rotator > nav ul li  { display: inline-block; padding: 0 2px; *display: inline; zoom: 1; }
+                .rotator > nav ul li a  { cursor: pointer; overflow: hidden; text-indent: -100px; background-color: #d7d7d7; height: 12px; width: 12px; display: block; text-align: center; border-radius: 6px; color: #fff; behavior: url('/Styles/PIE.htc'); position: relative; }
+                    .rotator > nav ul li a:hover, .rotator > nav ul li.selected a  { opacity: 1; background-color: #ed2323; }
+
+.ctaBoxes  { overflow: hidden; margin: 0 -10px; padding: 0px; list-style-type: none; }
+    .ctaBoxes li  { float: left; width: 306px; height: 312px; margin: 0px 10px; background-color: #eee; }
+        .ctaBoxes li a  { display: block; padding: 0 10px; color: #6c6c6c; font-size: 14px; cursor: pointer; }
+            .ctaBoxes li a:hover  { text-decoration: none; }
+            .ctaBoxes li a img  { display: block; max-width: 107%; height: auto; margin: 0 -10px; }
+            .ctaBoxes li a h1, .ctaBoxes li a h2, .ctaBoxes li a h3, .ctaBoxes li a h4, .ctaBoxes li a h5, .ctaBoxes li a h6  { margin: 0 -10px 6px -10px; padding: 0; color: #fff; font-family: 'Roboto'; font-weight: 500; letter-spacing: 1px; line-height: 1.1em; text-align: center; }
+        .ctaBoxes li.amber a h1, .ctaBoxes li.amber a h2, .ctaBoxes li.amber a h3, .ctaBoxes li.amber a h4, .ctaBoxes li.amber a h5, .ctaBoxes li.amber a h6  { background-color: #fcba48; }
+        .ctaBoxes li.pear a h1, .ctaBoxes li.pear a h2, .ctaBoxes li.pear a h3, .ctaBoxes li.pear a h4, .ctaBoxes li.pear a h5, .ctaBoxes li.pear a h6  { background-color: #76b940; }
+        .ctaBoxes li.sapphire a h1, .ctaBoxes li.sapphire a h2, .ctaBoxes li.sapphire a h3, .ctaBoxes li.sapphire a h4, .ctaBoxes li.sapphire a h5, .ctaBoxes li.sapphire a h6  { background-color: #0080c4; }
+        .ctaBoxes li a h1  { height: 24px; padding: 8px 0; font-size: 21px; }
+        .ctaBoxes li a h2  { height: 22px; padding: 9px 0; font-size: 19px; }
+        .ctaBoxes li a h3  { height: 20px; padding: 10px 0; font-size: 17px; }
+        .ctaBoxes li a h4  { height: 34px; padding: 3px 10px; font-size: 16px; }
+        .ctaBoxes li a h5  { height: 32px; padding: 4px 10px; font-size: 15px; }
+        .ctaBoxes li a h6  { height: 30px; padding: 5px 10px; font-size: 14px; }
+        .ctaBoxes li a p  { margin: 0; }
+
+
+.contactForm fieldset  { border: none; margin-top: 25px; padding: 0; }
+.contactForm .required  { position: relative; }
+    .contactForm .required:after  { content: " *"; color: #D81E05; }
+.contactForm legend  { width: 100%; font-size: 18px; padding-bottom: 10px; margin-bottom: 10px; font-family: Roboto; color: #EE3224; font-weight: 700; border-bottom: 1px solid #000; }
+.contactForm label  { position: relative; display: inline-block; width: 670px; margin: 10px 0; text-align: right; *display: inline; zoom: 1; }
+    .contactForm label span  { float: left; max-width: 365px; display: block; padding: 6px 0; font-size: 16px; vertical-align: middle; text-align: left; }
+.contactForm input:not([type="submit"]):not([type="radio"]), .contactForm select, .contactForm textarea  { width: 300px; padding: 6px; border: 1px solid #6c6c6c; box-sizing: border-box; }
+.contactForm textarea  { height: 100px; }
+.contactForm label input + span  { float: none; max-width: 100%; font-size: 12px; text-align: right; }
+.contactForm label span.validation  { float: none; top: -1px; right: -25px; }
+
+.contactForm fieldset > label > span.required::after  { content: " *"; color: red; }
+
+.contactForm .button  { width: 125px; margin: 10px 0 10px 46px; padding: 6px 0; }
+    .contactForm .button.reset  { float: left; margin-left: 0; }
+.contactForm form > .button.next  { margin-right: 10px; }
+.contactForm form > .button.print  { margin-left: 10px; }
+.contactForm form > span  { display: inline-block; font-size: 16px; font-weight: 700; *display: inline; zoom: 1; }
+.contactForm form > div  { display: inline-block; *display: inline; zoom: 1; }
+.contactForm form > .currentStep  { display: block; padding: 20px 0 15px 0; color: #EE3224; font-family: Roboto; font-size: 18px; font-weight: 700; }
+.contactForm form .errorSummary  { display: none; margin: 10px 0; padding: 10px; background-color: #FFDDDC; border: 1px solid #f00; }
+    .contactForm form .errorSummary.show  { display: block !important; }
+    .contactForm form .errorSummary h3  { position: relative; margin: 0 0 5px 0; padding-left: 20px; color: #6c6c6c; font-size: 16px; }
+        .contactForm form .errorSummary h3:before  { content: url('//scotiabankfiles.azureedge.net/scotiabank-peru/Profuturo/images/icon_error_exclaimation.png'); position: absolute; top: 1px; left: 0; }
+    .contactForm form .errorSummary ul  { margin: 0; padding: 0; list-style: none; }
+        .contactForm form .errorSummary ul li  { padding: 0; }
+            .contactForm form .errorSummary ul li:before  { content: "- "; }
+.contactForm > .requiredFields  { display: none; }
+.contactForm .multipleFields  { position: relative; text-align: right; }
+.contactForm > form > fieldset div  { position: relative; display: inline-block; margin: 10px 0; *display: inline; zoom: 1; }
+    .contactForm > form > fieldset div > span  { float: left; display: block; max-width: 365px; margin: 6px 0 0 0; font-size: 16px; font-weight: 700; text-align: left; }
+        .contactForm > form > fieldset div > span.validation  { bottom: inherit; top: 50%; right: -25px; margin: -10px 0 0 0; }
+.contactForm > form > fieldset > div > input[name="day"], .contactForm > form > fieldset > div > input[name="month"]  { width: 50px !important; }
+.contactForm > form > fieldset > div > input[name="year"]  { width: 80px !important; }
+.contactForm > form > fieldset div > select  { width: 120px; }
+.contactForm > form > fieldset div > select[name="identityDocument"]  { width: 200px; }
+.contactForm > form > fieldset div > select + input  { width: 176px !important; }
+.contactForm > form > fieldset div > select[name="identityDocument"] + input  { width: 96px !important; }
+.contactForm > form > fieldset > label ~ div  { min-height: 30px; text-align: right; }
+
+.ProfuturoTransferRequestForm > form > fieldset > div > label  { width: auto; margin: 0 0 0 10px; vertical-align: middle; }
+.ProfuturoTransferRequestForm > form > fieldset > div > input[type="radio"]  { vertical-align: middle; }
+.ProfuturoTransferRequestForm > form > fieldset > div > input[type="radio"] + .validation  { margin-top: -15px; }
+.ProfuturoTransferRequestForm .sideText  { font-size: 12px; padding-left: 5px; }
+
+.contactForm .preview  { display: none; }
+    .contactForm .preview.show  { display: inline-block; *display: inline; zoom: 1; }
+.contactForm span.preview.show  { width: 165px; text-align: left; color: #9c9c9c; }
+.contactForm div.preview.show  { font-size: 12px; }
+.contactForm fieldset > span  { width: 670px; margin: 8px auto; text-align: right; }
+.contactForm fieldset > div, .contactForm fieldset ~ div  { width: 670px; text-align: right; }
+
+.contactForm .termsAndConditions  { margin: 10px 0; }
+    .contactForm .termsAndConditions input[type='checkbox']  { display: block; float: left; }
+.contactForm aside  { text-align: right; margin-right: 10px; }
+.contactForm .returnMessage  { margin: 18px 0 0 0; }
+.contactForm label span:first-child  { font-weight: 700; }
+
+.contactForm label.textarea  { width: 754px; text-align: left; padding: 5px; }
+    .contactForm label.textarea textarea  { width: 542px; height: 150px; resize: vertical; margin-right: 2px; }
+    .contactForm label.textarea span  { vertical-align: top; text-align: left; width: auto !important; }
+        .contactForm label.textarea span.validation  { width: 20px !important; }
+        .contactForm label.textarea span.validation  { display: block; right: -10px; }
+    .contactForm label.textarea .show  { overflow-wrap: break-word; word-wrap: break-word; border: 1px solid #c1c1c1; display: block; width: auto; padding: 10px; margin: 5px 0px 0px 0px; }
+
+.contactForm .captcha  { top: auto; bottom: 5px; padding: 10px 0; text-align: right; }
+.contactForm .captcha img  { display: inline-block; margin: 10px 0 0 0; *display: inline; zoom: 1; }
+.contactForm .captcha a  { display: block; margin-bottom: 15px; }
+.contactForm .captcha span.validation  { top: inherit; bottom: 16px; }
+    .contactForm .captcha > label .captchaWhatsThis  { float: left; padding: 6px 0 6px 8px; font-size: 12px; cursor: pointer; outline:none; }
+    .contactForm .captcha > label .captchaInfo  { position: absolute; top: 21px; font-size: 11px; }
+.staticInfoTiles  { width: auto; background-color: #f0eee9; padding: 0 0px 15px 0px; }
+    .staticInfoTiles ul  { overflow: hidden; margin: 0; padding: 0; }
+    .staticInfoTiles li  { position: relative; width: 220px; height: 220px; background-color: #fff; padding: 5px; float: left; margin: 10px 0px 0 10px; display: inline-block; list-style-type: none; box-sizing: border-box; *display: inline; zoom: 1; }
+    .staticInfoTiles img  { max-width: 100%; max-height: 100%; }
+    .staticInfoTiles .graphical  { padding: 0; background-color: #f0eee9; }
+    .staticInfoTiles header  { padding: 0px 10px; }
+    .staticInfoTiles h1  { padding-top: 10px; margin-bottom: 0px; color: #808285; font-size: 21px; font-weight: 700; }
+    .staticInfoTiles h2  { color: #808285; font-size: 17px; font-weight: 700; margin: 0; }
+    .staticInfoTiles article  { max-height: 130px; margin: 5px 0; overflow: auto; }
+    .staticInfoTiles .button  { position: absolute; bottom: 5px; left: 5px; }
+    .staticInfoTiles .grey  { padding: 0; background-color: #f0eee9; }
+
+.bigImage  { display: block; position: relative; margin-bottom: 15px; }
+a.bigImage  { color: #333; }
+.bigImage img  { max-width: 100%; display: block; }
+.bigImage article  { position: absolute; bottom: 30px; background-color: rgba(255,255,255,0.7); width: 85%; padding: 5px 10px; }
+
+.calendar header  { position: relative; overflow: hidden; text-align: center; background-color: #bcbec0; border: 1px solid #bcbec0; padding: 15px; }
+    .calendar header a  { overflow: hidden; display: block; top: 11px; text-decoration: none; cursor: pointer; }
+.calendar h2  { margin: 0px; }
+.calendar .next  { position: absolute; right: 10px; background-position: right top; }
+.calendar .prev  { position: absolute; left: 10px; background-position: left top; }
+.calendar table  { width: 100%; border-collapse: collapse; margin-bottom: 5px; background-color: #f5f5f5; }
+    .calendar table tr  { text-align: center; }
+        .calendar table tr td  { border: 1px solid #dcdcdc; color: #28363d; padding: 10px; font-weight: 700; background-repeat: no-repeat; background-position: center 25px; font-size: .8em; }
+.calendar th  { background-color: #808285; font-size: .85em; color: #fff; font-weight: 100; }
+.calendar td  { color: #333; }
+    .calendar td a  { display: block; }
+    .calendar td.disabled  { color: #ccc; }
+.calendar tr.empty  { display: none; }
+.calendar .button.disabled  { display: none; }
+
+
+.tabbedContent nav  { list-style: none; margin: 0; padding: 0px; }
+    .tabbedContent nav a  { display: inline-block; background-color: #bcbec0; color: red; margin: 0 0 0 10px; *display: inline; zoom: 1; }
+        .tabbedContent nav a.selected  { border: 1px solid #e4e4e4; background-color: #F9F9F7; border-bottom: none; margin-top: 0; border-bottom: 1px solid #F9F9F7; color: #666666; font-weight: bold; }
+    .tabbedContent nav a  { text-decoration: none; text-align: center; color: #fff; font-size: 16px; line-height: 37px; padding: 0px 10px; }
+        .tabbedContent nav a:hover  { text-decoration: none; cursor: pointer; }
+.tabbedContent > ul  { padding: 0px; margin: 0px; }
+    .tabbedContent > ul > li.selected > a  { color: #666666; font-weight: bold; }
+    .tabbedContent > ul > li  { display: none; margin-top: -1px; list-style-type: none; }
+    .tabbedContent > ul li.selected  { display: block; padding: 20px; background-color: #F9F9F7; }
+.tabbedContent ul  { list-style-image: url('//scotiabankfiles.azureedge.net/scotiabank-peru/WebsiteTheme/redIconCheck.png'); }
+.tabbedContent ol  { list-style-image: none; }
+
+.tabbedContent > ul ul > li  { padding: 4px 0; }
+.tabbedContent > ul ul > li  { padding-top: 0; padding-bottom: 0; margin: 8px 0; }
+    .tabbedContent > ul ul > li p  { margin: 8px 0; }
+
+
+
+.splitCollapsible  { margin: 5px 0 10px 0; border: 1px solid #cfcfcf; padding: 5px 10px; background-color: #fff; box-shadow: 0 5px 10px -5px rgba(0,0,0,0.2); -webkit-box-shadow: 0 5px 10px -5px rgba(0,0,0,0.2); -moz-box-shadow: 0 5px 10px -5px rgba(0,0,0,0.2); -ms-box-shadow: 0 5px 10px -5px rgba(0,0,0,0.2); -o-box-shadow: 0 5px 10px -5px rgba(0,0,0,0.2); }
+    .splitCollapsible:hover  { background-color: #f9f9f7; }
+    .splitCollapsible > h2  { position: relative; font-size: 18px; display: block; margin: 0; padding: 8px 40px 8px 0; cursor: pointer; }
+        .splitCollapsible > h2:after  { content: "\25BC"; position: absolute; top: 0; right: 0; color: #fff; font-size: 21px; display: block; margin: 0; padding: 8px; background-color: #EE3224; box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.25) inset; -webkit-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.25) inset; -moz-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.25) inset; -ms-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.25) inset; -o-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.25) inset; }
+    .splitCollapsible h2:hover  { background-position: right -137px; }
+    .splitCollapsible > h2:hover:after  { box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.4) inset; -webkit-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.4) inset; -moz-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.4) inset; -ms-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.4) inset; -o-box-shadow: 0 -60px 40px -40px rgba(0,0,0,0.4) inset; }
+    .splitCollapsible > div  { padding: 0; margin: 5px 0; display: none; }
+    .splitCollapsible.open  { background-color: #f9f9f7; }
+        .splitCollapsible.open h2  { background-position: right -376px; }
+        .splitCollapsible.open > h2:after  { content: "\25B2"; }
+        .splitCollapsible.open h2:hover  { background-position: right -574px; }
+.premium .splitCollapsible h2  { background: url("//scotiabankfiles.azureedge.net/scotiabank-peru/WebsiteTheme/splitCollapsibleButtonPremium.png") no-repeat right 0px; }
+
+.splitCollapsible .splitCollapsible  { padding: 10px 0 0 0; margin: 10px 0px 0px 0px; border: none; border-top: 1px dashed #ccc; border-radius: 0px; background-color: transparent; box-shadow: none !important; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; -ms-box-shadow: none !important; -o-box-shadow: none !important; }
+    .splitCollapsible .splitCollapsible > h2:first-child  { font-size: 16px; padding: 5px 45px 5px 15px; background-image: none; }
+        .splitCollapsible .splitCollapsible > h2:first-child:before  { content: '+'; position: absolute; left: 0px; top: 3px; font-weight: 100; font-size: 20px; color: #666; }
+    .splitCollapsible .splitCollapsible.open > h2:first-child:before  { content: '-'; top: -px; }
+
+.splitCollapsible ul li p  { margin: 0 0 10px; }
+.splitCollapsible ul ul  { margin: 10px 0; }
+
+
+.ProfuturoImageGallery ul  { margin: 20px -20px 0 0; padding: 0; list-style-type: none; font-size: 0.001em; }
+    .ProfuturoImageGallery ul li  { display: inline-block; width: 216px; margin: 0 20px 20px 0; height: 185px; background-color: #f1f2f3; *display: inline; zoom: 1; }
+        .ProfuturoImageGallery ul li:hover  { background-color: #f7f8f9; }
+        .ProfuturoImageGallery ul li a  { display: block; margin: 10px; color: #6C6C6C; text-decoration: none; }
+            .ProfuturoImageGallery ul li a > *  { display: inline-block; *display: inline; zoom: 1; }
+            .ProfuturoImageGallery ul li a img  { max-width: 100%; max-height: 130px; }
+            .ProfuturoImageGallery ul li a b  { display: block; font-size: 14px; font-weight: 700; line-height: 1em; }
+            .ProfuturoImageGallery ul li a i  { display: block; font-size: 10px; font-style: normal; }
+
+    .ProfuturoImageGallery ul.pager  { margin: 0; font-size: 14px; text-align: center; }
+        .ProfuturoImageGallery ul.pager li  { width: 30px; height: 30px; margin: 0 5px; line-height: 30px; background-color: transparent; }
+            .ProfuturoImageGallery ul.pager li a  { display: block; height: 100%; margin: 0; background-color: #f1f2f3; box-shadow: 0 -45px 30px -30px rgba(0,0,0,0.25) inset; cursor:pointer; -webkit-box-shadow: 0 -45px 30px -30px rgba(0,0,0,0.25) inset; -moz-box-shadow: 0 -45px 30px -30px rgba(0,0,0,0.25) inset; -ms-box-shadow: 0 -45px 30px -30px rgba(0,0,0,0.25) inset; -o-box-shadow: 0 -45px 30px -30px rgba(0,0,0,0.25) inset; }
+                .ProfuturoImageGallery ul.pager li.selected a, .ProfuturoImageGallery ul.pager li a:hover  { color: #fff; background-color: #E1A722; }
+
+#lightBox.imageGallery .close  { top: 20px; right: 20px; }
+.profuturoImageLightBox  { position: relative; margin: -50px 0 0 0; }
+    .profuturoImageLightBox a  { position: absolute; display: block; top: 10px; font-size: 60px; width: 40px; height: 40px; color: #6C6C6C; line-height: 32px; text-align: center; text-decoration: none; vertical-align: middle; background-color: #fff; cursor: pointer; }
+        .profuturoImageLightBox a:hover  { color: #fff; background-color: #515151; }
+    .profuturoImageLightBox .prev  { left: 10px; }
+    .profuturoImageLightBox .next  { left: 55px; }
+    .profuturoImageLightBox img  { width: 100%; height: auto; }
+    .profuturoImageLightBox b  { display: block; font-size: 16px; font-weight: 700; text-align: left; }
+    .profuturoImageLightBox i  { display: block; font-size: 14px; font-style: normal; text-align: left; }
+
+
+.ProfuturoVideoGallery ul  { margin: 20px -20px 0 0; padding: 0; list-style-type: none; font-size: 0.001em; }
+    .ProfuturoVideoGallery ul li  { display: inline-block; width: 216px; margin: 0 20px 20px 0; height: 185px; background-color: #f1f2f3; *display: inline; zoom: 1; }
+        .ProfuturoVideoGallery ul li:hover  { background-color: #f7f8f9; }
+        .ProfuturoVideoGallery ul li a  { display: block; margin: 10px; color: #6C6C6C; text-decoration: none; }
+            .ProfuturoVideoGallery ul li a > *  { display: inline-block; *display: inline; zoom: 1; }
+            .ProfuturoVideoGallery ul li a img  { max-width: 100%; max-height: 146px; }
+            .ProfuturoVideoGallery ul li a b  { display: block; font-size: 14px; font-weight: 700; line-height: 1em; }
+            .ProfuturoVideoGallery ul li a i  { display: block; font-size: 10px; font-style: normal; }
+
+    .ProfuturoVideoGallery ul.pager  { margin: 0; font-size: 14px; text-align: center; }
+        .ProfuturoVideoGallery ul.pager li  { width: 30px; height: 30px; margin: 0 5px; line-height: 30px; background-color: transparent; }
+            .ProfuturoVideoGallery ul.pager li a  { display: block; height: 100%; margin: 0; background-color: #f1f2f3; box-shadow: 0 -45px 30px -30px rgba(0,0,0,0.25) inset; cursor:pointer; -webkit-box-shadow: 0 -45px 30px -30px rgba(0,0,0,0.25) inset; -moz-box-shadow: 0 -45px 30px -30px rgba(0,0,0,0.25) inset; -ms-box-shadow: 0 -45px 30px -30px rgba(0,0,0,0.25) inset; -o-box-shadow: 0 -45px 30px -30px rgba(0,0,0,0.25) inset; }
+                .ProfuturoVideoGallery ul.pager li.selected a, .ProfuturoVideoGallery ul.pager li a:hover  { color: #fff; background-color: #E1A722; }
+
+.profuturoVideoLightBox  { position: relative; margin: 0; }
+    .profuturoVideoLightBox a  { position: absolute; display: block; top: -50px; font-size: 60px; width: 40px; height: 40px; color: #6C6C6C; line-height: 32px; text-align: center; text-decoration: none; vertical-align: middle; background-color: #fff; cursor: pointer; }
+        .profuturoVideoLightBox a:hover  { color: #fff; background-color: #515151; }
+    .profuturoVideoLightBox .prev  { left: 0; }
+    .profuturoVideoLightBox .next  { left: 45px; }
+    .profuturoVideoLightBox img  { width: 100%; height: auto; }
+    .profuturoVideoLightBox b  { display: block; font-size: 16px; font-weight: 700; text-align: left; }
+    .profuturoVideoLightBox i  { display: block; font-size: 14px; font-style: normal; text-align: left; }
+
+.ProfuturoStatementInformation  { max-width: 100%; margin: 20px 0; }
+    .ProfuturoStatementInformation a img  { max-width: 100%; }
+
+#lightBox.statementInformation .wrapper  { text-align: center; }
+    #lightBox.statementInformation .wrapper img  { max-width: 100%; }
+
+.cascadingDropdownLinks  { margin: 20px 0px; padding: 20px; background-color: #f9f9f7; border: 1px solid #e4e4e4; overflow: hidden; }
+    .cascadingDropdownLinks label  { display: block; margin: 10px 0; font-size: 16px; font-weight: 700; line-height: 2em; }
+    .cascadingDropdownLinks label:after  { content: ' '; display: block; clear: both; }
+    .cascadingDropdownLinks select  { width: 300px; padding: 6px; border: 1px solid #6c6c6c; box-sizing: border-box; float: right; font-size: 14px; font-weight: 100; }
+    .cascadingDropdownLinks .button  { margin: 10px 0 0 0; float: right; }
+
+.pdfSelector  { display: block; margin: 20px 0; padding: 20px; background-color: #f9f9f7; border: 1px solid #e4e4e4; }
+.pdfSelector:after  { content: ' '; display: block; clear: both; }
+    .pdfSelector > span  { float: left; padding: 6px 0; font-size: 16px; vertical-align: middle; font-weight: 700; max-width: 365px; text-align: left; }
+    .pdfSelector > ul  { padding-top: 20px; }
+    .pdfSelector select  { width: 300px; float: right; display: block; padding: 6px; border: 1px solid #6c6c6c; box-sizing: border-box; }
+    .pdfSelector .button  { float: right; clear: both; margin: 10px 0; }
+
+
+/********************************************************************************************************************************************************************************************/
+/*LATIN LINGUA REQUEST
+*********************************************************************************************************************************************************************************************/
+#contentColumn img  { max-width: 100%; }
+
+table.default  { font-size: 0.9em; border: 1px solid #ccc; border-top: 3px solid #adada7; padding:0; border-collapse: collapse; margin-top:1.5em; width:100%; margin-bottom: 1em; background-color:#FFF; } 
+   table.default.small  { font-size: 0.9em; } 
+   table.default tbody  { padding:0; } 
+   table.default tr.odd th, table.default tr.odd td  { background-color: #f5f5f5; } 
+   table.default th  { font-size:1.1em; text-align: left; padding:0.5em; padding-left:1em; border-width: 0 1px; border-style: solid; border-color: #ccc; border-bottom: 3px solid #ccc; } 
+   table.default td  { padding: 1em; border-width: 0 1px; border-style: solid; border-color: #ccc; } 
+   table.default.small td  { padding: 0.8em; } 
+   table.default td.headerRow  { font-size:1.1em; font-weight: bold; border: 1px solid #ccc; border-top: 3px solid #ccc; } 
+   table.default a  { font-weight: bold; }

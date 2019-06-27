@@ -1,0 +1,53 @@
+﻿
+
+@model IEnumerable<TatooTeans.Models.TrabajoRealizado>
+
+@{
+    ViewBag.Title = "BuscarCategoriaTatuaje";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<br />
+<br />
+<br />
+@using (Html.BeginForm("BuscarCategoriaTatuaje", "CategoriaTatuajes", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <select name="id">
+        @foreach (var item in @ViewBag.categoria)
+        {
+            <option value=@item.ID>@item.Descripcion</option>
+        }
+    </select>
+    <input type="submit" value="Buscar" class="btn btn-default" />
+}
+
+
+@foreach (var item in Model)
+{
+    //string ruta = "~/Imagenes/";
+    //if (@ViewBag.c != null)
+    //{
+    //    foreach (var item2 in @ViewBag.categoria)
+    //    {
+    //        if (item2.ID == @ViewBag.c)
+    //        {
+    //            ruta += item2.Descripcion;
+    //            break;
+    //        }
+    //    }
+    //}
+    //else
+    //{
+    //    ruta = "";
+    //}
+    //ruta+= ".jpg";
+    <div class="col-lg-3">
+        @*<img src=@ruta />*@
+        <h4>Tatuador: @item.Usuario.Nombre</h4>
+        <h4>Fecha: @item.FechaRealizada</h4>
+        <h4>Puntucion: @item.Puntuacion</h4>
+    </div>
+}
+

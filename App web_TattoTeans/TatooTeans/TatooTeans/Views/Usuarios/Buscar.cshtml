@@ -1,0 +1,91 @@
+﻿@model IEnumerable<TatooTeans.Models.Usuario>
+
+    @{
+        List<TatooTeans.Models.Usuario> lista = ViewBag.Usuarios;
+        ViewBag.Title = "Buscar";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+    <body class="subpage">
+        <br />
+        <br />
+        <br />
+        <div class="col-xs-12 col-sm-9">
+            <h2>Buscar</h2>
+            @using (Html.BeginForm("Buscar", "Usuarios", FormMethod.Post))
+                    {
+            @Html.AntiForgeryToken()
+            <!--<input type="hidden" id="identificador" name="identificador" value=2>-->
+            <input type="text" name="nombre" id="txtnombre">
+            <input type="submit" value="Buscar" class="btn btn-default" />
+                    }
+            <a name="tabla1"></a>
+            <table class="table">
+                <tr>
+                    <th>Tatuador</th>
+
+                </tr>
+
+                @for (int i = 0; i < lista.Count(); i++)
+            {
+                <tr>
+                    @if (lista[i].ID_TipoUsuario == 2)
+                {
+                    <td>
+                        @using (Html.BeginForm("Buscar_Usuarios", "Usuarios", FormMethod.Post))
+                            {
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" id="id" name="id" value=@lista[i].ID>
+                        <h5>Nombre:        @lista[i].Nombre</h5>
+                        <p> Apellido:      @lista[i].Apellido </p>
+                        <p> Distrito:      @lista[i].Distrito </p>
+                        <p> E-Mail:        @lista[i].Correo </p>
+                        <input type="submit" value="Ver Perfil" class="btn btn-default" />
+                            }
+                    </td>
+                    <td>
+                        <!--<img src="~/images/FotoPerfil.png" alt="" width="213" height="194" />-->
+                        <img src="http://static.notinerd.com/wp-content/uploads/2014/04/715.jpg" alt="" width="213" height="194" />
+                    </td>
+                    }
+                </tr>
+            }
+            </table>
+
+
+            <a name="tabla2"></a>
+            <table class="table">
+                <tr>
+                    <th>Cliente</th>
+
+                </tr>
+
+                @for (int i = 0; i < lista.Count(); i++)
+            {
+                <tr>
+                    @if (lista[i].ID_TipoUsuario == 1)
+                {
+                    <td>
+                        @using (Html.BeginForm("Buscar_Usuarios", "Usuarios", FormMethod.Post))
+                            {
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" id="id" name="id" value=@lista[i].ID>
+                        <h5>Nombre:        @lista[i].Nombre</h5>
+                        <p> Apellido:      @lista[i].Apellido </p>
+                        <p> Distrito:      @lista[i].Distrito </p>
+                        <p> E-Mail:        @lista[i].Correo </p>
+                        <input type="submit" value="Ver Perfil" class="btn btn-default" />
+                            }
+                    </td>
+                    <td>
+                        <!--<img src="~/images/FotoPerfil.png" alt="" width="213" height="194" />-->
+                        <img src="http://static.notinerd.com/wp-content/uploads/2014/04/715.jpg" alt="" width="213" height="194" />
+                    </td>
+                    }
+                </tr>
+            }
+            </table>
+        </div><!--/.col-xs-12.col-sm-9-->
+
+      
+
+    </body>

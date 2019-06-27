@@ -1,0 +1,59 @@
+﻿@model TatooTeans.Models.Usuario
+
+@{
+    ViewBag.Title = "Log in";
+}
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="container">
+        
+        <div class="login-form">
+            <div class="login-wrap">
+                <p class="login-img"><i class="icon_lock_alt"></i></p>
+                @ViewBag.SuccessfulMessage
+                <br />
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_profile"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Correo
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.Correo, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Correo, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_key_alt"></i></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Contraseña
+
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.Contraseña, new { htmlAttributes = new { @class = "form-control", @type = "password" } })
+                        @Html.ValidationMessageFor(model => model.Contraseña, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                @if (@ViewBag.ErrorMessage != null)
+                {
+                    <div class="alert alert-danger">
+                        <strong>No se pudo Loguear!!&nbsp;</strong> @ViewBag.ErrorMessage
+                    </div>
+                }
+                @if (Session["SuccessfulMessage"] != null)
+                {
+                    <div class="alert alert-success">
+                        <strong>Exito!!&nbsp;</strong> @Session["SuccessfulMessage"].ToString()
+                    </div>
+                    Session["SuccessfulMessage"] = null;
+                }
+                <br />
+                @Html.ActionLink("¿Olvidaste tu contraseña?", "Restore_Password", "Usuarios")
+                <button class="btn btn-info btn-lg btn-block" type="submit">Login</button>
+                <button class="btn btn-danger btn-lg btn-block" type="button">Login with Google</button>
+                <button class="btn btn-primary btn-lg btn-block" type="button">Login with FaceBook</button>
+            </div>
+        </div>
+        
+
+    </div>
+        <br />
+}
